@@ -1,0 +1,9 @@
+.el-radio-group {
+	.el-radio-button {
+		&--large {
+			.el-radio-button__inner {
+				padding: 13px 19px;
+			}
+		}
+	}
+}

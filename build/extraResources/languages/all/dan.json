@@ -1,0 +1,1958 @@
+{
+    "38cf16f2204ffab8a6e0187070558721": {
+        "src": "确定",
+        "dst": "Sikker"
+    },
+    "258e181f625d158e1c6421f7519cf480": {
+        "src": "密码长度不能小于8位",
+        "dst": "Adgangskodelængden kan ikke være mindre end 8 bit"
+    },
+    "fb7cf3537ddc72f04da20a5eae908186": {
+        "src": "分组名称不能为空",
+        "dst": "Gruppenavnet kan ikke være tomt"
+    },
+    "89b5d3d5bfb3510565a32a76316fc6a5": {
+        "src": "密码不能为空",
+        "dst": "Adgangskode kan ikke være tomt"
+    },
+    "694fc5efa9e1d1c2c5eb6525e1c7fb29": {
+        "src": "刷新",
+        "dst": "opfriske"
+    },
+    "14f275ca451e92e433b3192cdb2af534": {
+        "src": "正在检查更新...",
+        "dst": "Kontrollerer for opdateringer"
+    },
+    "0a5766d1f8bbc246edb7efec6e82da2e": {
+        "src": "有可用更新",
+        "dst": "Der er tilgængelige opdateringer"
+    },
+    "1c45d4c657fbb4f6243bfba73dd9a81d": {
+        "src": "没有可用更新",
+        "dst": "Ingen opdateringer tilgængelige"
+    },
+    "e9ca7936a1633e5c3e4c52fa2e1f98be": {
+        "src": "已下载 ",
+        "dst": "Downloadet"
+    },
+    "fc227d289bb0d590396705cc829b4050": {
+        "src": "下载完成",
+        "dst": "Download afsluttet"
+    },
+    "e2343e348d2c053fb9d42669a3680b2f": {
+        "src": "翻译结果",
+        "dst": "Oversættelsesresultater"
+    },
+    "a5d2dadcce8d4b59ad86be15b3d4c076": {
+        "src": "翻译失败，请重试",
+        "dst": "Oversættelse mislykkedes, prøv igen"
+    },
+    "e5729e9463f94a404b4ddfa8283bcb1b": {
+        "src": "原文",
+        "dst": "originaltekst"
+    },
+    "cd2589e0ae26e3e82ecf567d1d6045c7": {
+        "src": "译文",
+        "dst": "oversættelse"
+    },
+    "79d3abe929f67f0644a78bf32adb3a89": {
+        "src": "复制",
+        "dst": "kopi"
+    },
+    "43fc77886b7fbcd658f0ccdba36bd5a0": {
+        "src": "剪切",
+        "dst": "forskydning"
+    },
+    "01969669d65bc77a2245de204b3cb6e1": {
+        "src": "用新窗口打开",
+        "dst": "Åbn med et nyt vindue"
+    },
+    "879058ce06da016f3e2f79bdedc3e6b8": {
+        "src": "复制链接",
+        "dst": "Kopiér link"
+    },
+    "eafbece1016a6af76cce466e55ad9f00": {
+        "src": "粘贴",
+        "dst": "paste"
+    },
+    "66eeacd93a7c1bda93906fe908ad11a0": {
+        "src": "全选",
+        "dst": "Vælg alle"
+    },
+    "e61ce3c024c634b7eac671f775d42bd5": {
+        "src": "粘贴选中内容",
+        "dst": "Indsæt markeret indhold"
+    },
+    "d0ed01d1ce91f630b6b01b581b424bf7": {
+        "src": "打开链接",
+        "dst": "Åbn link"
+    },
+    "8f1f643259b15248c40ddd37be7ed622": {
+        "src": "翻译为中文",
+        "dst": "Oversæt til kinesisk"
+    },
+    "d32d3fc32f8d01a5e86ae412fa5faff0": {
+        "src": "刷新缓存",
+        "dst": "Opdater cache"
+    },
+    "ed275d6fd5d6fb86e172966663e1dfe2": {
+        "src": "开发者工具",
+        "dst": "Udviklingsværktøjer"
+    },
+    "4328677c29493531e3469538ced9c541": {
+        "src": "检查",
+        "dst": "inspicere"
+    },
+    "03180b8c8aa71b20c9eac23c844ff1d2": {
+        "src": "SFTP连接成功",
+        "dst": "SFTP- forbindelse vellykket"
+    },
+    "97c7c6ea8cc0988ee8016499e42f0971": {
+        "src": "认证失败，帐号或密码错误: {}",
+        "dst": "Godkendelse mislykkedes, forkert konto eller adgangskode: {}"
+    },
+    "76feeada19cd90a86fd7ec2dc685f995": {
+        "src": "连接失败: {}",
+        "dst": "Forbindelse mislykkedes: {}"
+    },
+    "62b8df98cf6634daaaa7a2c1a70dc73e": {
+        "src": "连接超时: {}",
+        "dst": "Tidsfrist for forbindelse: {}"
+    },
+    "f8cd875a166ce408ff58300e2f33d6c3": {
+        "src": "SFTP连接失败: {}",
+        "dst": "SFTP- forbindelse mislykkedes: {}"
+    },
+    "ae54696cf9174f8920cfd8c2f101d00b": {
+        "src": "SFTP连接已断开",
+        "dst": "SFTP- forbindelse afbrudt"
+    },
+    "ac314d6301406fbdff6460b6c8eacdce": {
+        "src": "上传文件失败: {}",
+        "dst": "Upload fil mislykkedes: {}"
+    },
+    "58af3ad7cd47fe86827ac5fcc59889ff": {
+        "src": "上传文件成功",
+        "dst": "Upload fil med succes"
+    },
+    "a46f1765a48b4afb06bf769c3afc0bad": {
+        "src": "请选择保存位置",
+        "dst": "Vælg venligst en gemmested"
+    },
+    "b38376fbd090a88c405cf21e7db23aaa": {
+        "src": "下载文件: ",
+        "dst": "Download fil:"
+    },
+    "31d395aafdff7c8929b7dbb7b0054059": {
+        "src": "下载文件失败: {}",
+        "dst": "Download fil mislykkedes: {}"
+    },
+    "204ff70386d24e1551701803097d681c": {
+        "src": "创建文件失败: {}",
+        "dst": "Kunne ikke oprette fil: {}"
+    },
+    "048fedb291c672b6ef357000ae89800e": {
+        "src": "创建文件成功",
+        "dst": "Filoprettelse vellykket"
+    },
+    "97c2aa537c0ee81508c7f4211110f058": {
+        "src": "修改文件权限失败: {}",
+        "dst": "Kunne ikke ændre filtilladelser: {}"
+    },
+    "b6535636545982e2596acb1dd7ba77ec": {
+        "src": "修改文件权限成功",
+        "dst": "Ændrede filtilladelser med succes"
+    },
+    "dd6cd969887156ca8fa2a1a3df8917be": {
+        "src": "修改文件所有者失败: {}",
+        "dst": "Kunne ikke ændre filejer: {}"
+    },
+    "eb5cca35a29850ddc2178d4fe1bbf570": {
+        "src": "修改文件所有者成功",
+        "dst": "Ændret filejer med succes"
+    },
+    "b9771e089e680fdb8a1fe83b21d71e4d": {
+        "src": "获取用户列表失败: {}",
+        "dst": "Kunne ikke hente brugerlisten: {}"
+    },
+    "09999d5ded24ff5b6725f6615aee916d": {
+        "src": "删除文件失败: {}",
+        "dst": "Kunne ikke slette fil: {}"
+    },
+    "8e56d76a99e83752822ad4ae628eade0": {
+        "src": "删除文件成功",
+        "dst": "Filen slettet med succes"
+    },
+    "d1eb826eb56e74a7924360a9f4dfaf15": {
+        "src": "创建目录失败: {}",
+        "dst": "Kunne ikke oprette mappe: {}"
+    },
+    "c84115095fe63e6f7a7b5cb4333ffaaf": {
+        "src": "创建目录成功",
+        "dst": "Oprettet mappe med succes"
+    },
+    "701e1d9e9abc9637d0c14108e9f417f2": {
+        "src": "删除目录失败: {}",
+        "dst": "Slet mappe mislykkedes: {}"
+    },
+    "4d6ec5fc52d95f228066f2bdf4aeb84e": {
+        "src": "删除目录成功",
+        "dst": "Slet mappe med succes"
+    },
+    "7bf9ad7d8a46bdc273f9d73e62d21210": {
+        "src": "读取目录失败: {}",
+        "dst": "Læsning af mappe mislykkedes: {}"
+    },
+    "4c368c6a26fe4822f6b1106a50ea70d6": {
+        "src": "读取文件失败: ",
+        "dst": "Kunne ikke læse filen:"
+    },
+    "ec32cfe806f903890c63219fff1f0c81": {
+        "src": "写入文件失败: {}",
+        "dst": "Skrivning af fil mislykkedes: {}"
+    },
+    "f6636cb616911c0f3087cf073d962fdf": {
+        "src": "写入文件成功",
+        "dst": "Skrevet fil med succes"
+    },
+    "6296ba99cd500be77c764cbda6e17c80": {
+        "src": "重命名文件失败: {}",
+        "dst": "Omdøbning af fil mislykkedes: {}"
+    },
+    "be4ee7cbb658a2fc0d8d119afcbcfbac": {
+        "src": "重命名文件成功",
+        "dst": "Omdøb fil med succes"
+    },
+    "7e68f315d2cd0d2a6dea805295d30f67": {
+        "src": "获取文件属性失败: {}",
+        "dst": "Kunne ikke hente filegenskaber: {}"
+    },
+    "2dc9a69d2d712dadddf8eb452a35801d": {
+        "src": "同步代理信息到代理池",
+        "dst": "Synkroniser proxy-oplysninger med proxypuljen"
+    },
+    "22ae14a87c7cbe6baa5afd967bbed39f": {
+        "src": "代理信息同步完成",
+        "dst": "Synkronisering af proxyinformation afsluttet"
+    },
+    "4d341f23f6ec929dc86ef1ffceda016f": {
+        "src": "代理服务器连接失败: {}",
+        "dst": "Proxyserverforbindelse mislykkedes: {}"
+    },
+    "bc3e1bc365223074ca4e3a3b79717ac3": {
+        "src": "SSH连接已关闭,按回车尝试重新连接",
+        "dst": "SSH-forbindelsen lukket, tryk på Enter for at prøve at genoprette forbindelsen"
+    },
+    "d2635beb5f24864fd07b94884cbd34cd": {
+        "src": "认证失败，SSH帐号或密码错误: {}",
+        "dst": "Godkendelse mislykkedes, SSH- konto eller adgangskode forkert: {}"
+    },
+    "885ffef23b343072899b8c6f0eeaa09e": {
+        "src": "SSH连接失败: {}",
+        "dst": "SSH- forbindelse mislykkedes: {}"
+    },
+    "191120a335256998ca0d6cfd80243e41": {
+        "src": "检测到SSH连接已断开，正在重新连接...",
+        "dst": "Registreret SSH-forbindelse afbrudt, genoptaget forbindelse"
+    },
+    "9febf31146d9c96bfde09a4a20dcf17d": {
+        "src": "请选择文件",
+        "dst": "Vælg venligst en fil"
+    },
+    "cd6da7bde22932011b06c6af671f9aaf": {
+        "src": "SFTP已连接",
+        "dst": "SFTP forbundet"
+    },
+    "d42741903db0403aef493eeba182d7a2": {
+        "src": "SSH信息不存在",
+        "dst": "SSH-oplysninger findes ikke"
+    },
+    "b33199d32d63c2a639c6597cf4af6624": {
+        "src": "连接成功",
+        "dst": "Forbindelse vellykket"
+    },
+    "ea839e392d95b26ca3f16e4f451f40d1": {
+        "src": "SFTP未连接",
+        "dst": "SFTP ikke forbundet"
+    },
+    "8439c155d0b1e4b2dc78104ddbcb30fd": {
+        "src": "连接已断开",
+        "dst": "forbindelse droppet"
+    },
+    "14aac84157cfa74f368c4d3985cdbf87": {
+        "src": "已打开",
+        "dst": "Åbnet"
+    },
+    "6299544f596ad80461788ca5f39171ee": {
+        "src": "设置语言为: {}",
+        "dst": "Sæt sproget til: {}"
+    },
+    "f6088e4ae24e551baa0f7a697b867695": {
+        "src": "设置成功",
+        "dst": "Indstilling vellykket"
+    },
+    "8451d06b17f1a8b5a4bd3be8014e827d": {
+        "src": "已设置管理密码",
+        "dst": "Administrationsadgangskode er blevet indstillet"
+    },
+    "9a70e983ffebeaea5f195a108540c08f": {
+        "src": "未设置管理密码",
+        "dst": "Ingen adgangskode indstillet til administration"
+    },
+    "1f5c6b1407fc495973665a00cdf805ac": {
+        "src": "管理密码设置成功",
+        "dst": "Indstil administreringsadgangskode med succes"
+    },
+    "5a5368cf9ba91149660dd4d44fa61fce": {
+        "src": "密码错误",
+        "dst": "Adgangskodefejl"
+    },
+    "b41e394ea0c5667f284b25608bd30081": {
+        "src": "同步密码不能为空",
+        "dst": "Synkroniseringsadgangskoden kan ikke være tom"
+    },
+    "67d8e1c63f379b2608aba6eacf24e718": {
+        "src": "密码正确",
+        "dst": "Adgangskode er korrekt"
+    },
+    "18c63459a2c069022c7790430f761214": {
+        "src": "默认",
+        "dst": "standard"
+    },
+    "105c8a51febafdf21cf88617dba29c0e": {
+        "src": "导出成功",
+        "dst": "Eksport vellykket"
+    },
+    "dd51ab5026f7683c7ff40d8d71eda619": {
+        "src": "导出失败",
+        "dst": "Eksport mislykkedes"
+    },
+    "df869d7dd8d849d526d6785ea287411e": {
+        "src": "请选择导入面板备份文件",
+        "dst": "Vælg venligst at importere panelets sikkerhedskopieringsfiler"
+    },
+    "84fa6ae4bb391c5b6b5d6b8c1479de8a": {
+        "src": "没有可导入的数据",
+        "dst": "Ingen data til rådighed for import"
+    },
+    "7ef67b1dd36f6a6e6c9b6e6a0ab18d07": {
+        "src": "导入数据格式错误",
+        "dst": "Importér dataformatfejl"
+    },
+    "b6d16a8173dd0d43f580bc6882dc5e9a": {
+        "src": "导入成功",
+        "dst": "Importér vellykket"
+    },
+    "fddcd7c6e456e5b131cfcf780b837e74": {
+        "src": "导入失败",
+        "dst": "Import mislykkedes"
+    },
+    "a8b0c20416853bda54120bf19477ad11": {
+        "src": "全部",
+        "dst": "hele"
+    },
+    "478e1a1ca32a81b78fed2721ddc494c7": {
+        "src": "分组名称不能超过24个字符",
+        "dst": "Gruppenavn må ikke overstige 24 tegn"
+    },
+    "87534b9b69a9c91ad4dc1bc91ba1ece1": {
+        "src": "指定分组名称已经存在",
+        "dst": "Det angivne gruppenavn eksisterer allerede"
+    },
+    "3fdaeadf0e8a3154ae62784f04138c28": {
+        "src": "添加成功",
+        "dst": "Tilføjet med succes"
+    },
+    "6452a05591d7402a8bcd9fadc950c449": {
+        "src": "添加失败",
+        "dst": "Tilføj mislykkedes"
+    },
+    "69be671786f62ce872f87de1ab761746": {
+        "src": "修改成功",
+        "dst": "Ændret med succes"
+    },
+    "5badb3ba850fe144904d1bf6375fbd92": {
+        "src": "修改失败",
+        "dst": "Ændring mislykkedes"
+    },
+    "0007d170de017dafc266aa03926d7f00": {
+        "src": "删除成功",
+        "dst": "Slet med succes"
+    },
+    "acf0664a54dc58d9d0377bb56e162092": {
+        "src": "删除失败",
+        "dst": "Slet mislykkedes"
+    },
+    "415732c442ddd62ec1a27ea617ce45a5": {
+        "src": "获取面板地区失败: ",
+        "dst": "Kunne ikke hente panelregion:"
+    },
+    "a07e1b3658308df93dcb14c30002fa81": {
+        "src": "面板不存在",
+        "dst": "Panelet eksisterer ikke"
+    },
+    "a6c76b1209b0a89f745e0a8ec933c71c": {
+        "src": "Token不能为空",
+        "dst": "Token kan ikke være tom"
+    },
+    "b89ffc97aae60ff7690a5121bf13709d": {
+        "src": "Token解析失败",
+        "dst": "Tokentolkning mislykkedes"
+    },
+    "9bbfc55d2507888e3a103fb8bfc6cb7a": {
+        "src": "此面板已经绑定过，请勿重复绑定",
+        "dst": "Dette panel er allerede blevet bundet, bind det ikke igen"
+    },
+    "6e440e42c111ae260a8a23d4357a350b": {
+        "src": "绑定超时",
+        "dst": "Binding timeout"
+    },
+    "5a14b6d97d80766b07a87f78bf742009": {
+        "src": "获取绑定状态失败: {}",
+        "dst": "Kunne ikke opnå bindende status: {}"
+    },
+    "02e06327b39316f9d12fdf61952976c1": {
+        "src": "绑定面板[{}]成功",
+        "dst": "Bindingspanel [{}] vellykket"
+    },
+    "1974fe534902795d1816eb6ec1a1370b": {
+        "src": "绑定成功",
+        "dst": "Binding vellykket"
+    },
+    "171cc7764331a6625461e60cd20aafac": {
+        "src": "绑定面板[{}]失败",
+        "dst": "Bindningspanel [{}] mislykkedes"
+    },
+    "76be598fd3c79e9ae2bc55fbdbfae866": {
+        "src": "绑定失败",
+        "dst": "Binding mislykkedes"
+    },
+    "6d38b82dd0fd01c2e33f37e69e967850": {
+        "src": "绑定密钥已过期，请重新打开[堡塔APP]插件复制新的绑定密钥!",
+        "dst": "Indbindingsnøglen er udløbet. Åbn venligst [Fortress APP] plugin'et igen og kopier den nye bindingsnøgle!"
+    },
+    "63bdb69dc786f5424304123a9a103656": {
+        "src": "绑定失败,{}",
+        "dst": "Binding mislykkedes, {}"
+    },
+    "3eb7df5131687afa3456cc49e6b4932f": {
+        "src": "绑定失败,无效的APP-Token",
+        "dst": "Binding mislykkedes, ugyldig APP Token"
+    },
+    "012bb68adf6c00ae5cfe3444e8f0fb28": {
+        "src": "验证类型不能为空",
+        "dst": "Verifikationstype kan ikke være tom"
+    },
+    "fbef7ff11de474dfcc3e403ac2c58612": {
+        "src": "面板URL不能为空",
+        "dst": "Panelets URL kan ikke være tom"
+    },
+    "0b62b5ce81552c9ec3f990549f9a75ea": {
+        "src": "用户名不能为空",
+        "dst": "Brugernavnet kan ikke være tomt"
+    },
+    "698c8743c0b01d344078dbfd0ecc5f4c": {
+        "src": "安全入口不能为空",
+        "dst": "Sikkerhedsindgangen må ikke være tom."
+    },
+    "4079835cee209628165d522e61e48634": {
+        "src": "URL地址格式不正确",
+        "dst": "URL-adresseformatet er forkert"
+    },
+    "47fa15b57426825ad4da34019e7dd9e0": {
+        "src": "绑定面板[{}]失败，无法连接到面板: {}",
+        "dst": "Bindningspanel [{}] mislykkedes, kunne ikke oprette forbindelse til panel: {}"
+    },
+    "b3fc8393758be5e7df3335f0edc9d691": {
+        "src": "绑定面板[{}]失败，因为该面板配置了BasicAuth认证: {}",
+        "dst": "Bindingspanelet [{}] mislykkedes, fordi panelet er konfigureret med BasicAuth-godkendelse: {}"
+    },
+    "e1bd42a3247e3a3a5dcb2582652e28b6": {
+        "src": "此面板未绑定过，请先绑定",
+        "dst": "Dette panel er ikke blevet bundet før, bind det først"
+    },
+    "a117fa730a7026d841373e3d4deb9e6f": {
+        "src": "修改面板绑定[{}]成功",
+        "dst": "Ændret panelbinding [{}]"
+    },
+    "d6ce9a6485b424375e10b4c27330726e": {
+        "src": "修改面板绑定[{}]失败",
+        "dst": "Kunne ikke ændre panelbinding [{}]"
+    },
+    "3f5e0a98c7563396a43d998b1eddc673": {
+        "src": "指定面板未绑定",
+        "dst": "Det angivne panel er ikke bundet"
+    },
+    "88a7211a14c70010b25fe134a99155ec": {
+        "src": "修改面板[{}]失败，无法连接到面板: {}",
+        "dst": "Ændring af panel [{}] mislykkedes, kunne ikke oprette forbindelse til panel: {}"
+    },
+    "f08e382e47737a40b788236539d4ab78": {
+        "src": "修改面板[{}]失败，因为该面板配置了BasicAuth认证: {}",
+        "dst": "Ændringspanel [{}] mislykkedes, fordi det er konfigureret med BasicAuth-godkendelse: {}"
+    },
+    "a3eb6e8f5437f3b7e9df485181bce6a9": {
+        "src": "修改面板[{}][{}]成功",
+        "dst": "Ændret panel [{}] [{}]"
+    },
+    "3eb3907b0655c6baf14f86d8517a1c39": {
+        "src": "修改面板[{}]失败",
+        "dst": "Kunne ikke ændre panel [{}]"
+    },
+    "029a4596a32ee0c7f1a67d29aa365008": {
+        "src": "删除面板[{}][{}]成功",
+        "dst": "Slettet panel [{}] [{}]"
+    },
+    "9d2244681e63218ccd5f8742f8fba454": {
+        "src": "删除面板[{}][{}]失败",
+        "dst": "Kunne ikke slette panel [{}] [{}]"
+    },
+    "5fc2bb2bc835377c679ba71785b8a0b4": {
+        "src": "最多只能设置{}个常用面板",
+        "dst": "Kun {} almindeligt anvendte paneler kan højst indstilles"
+    },
+    "9f96034c4d8dab42c66159ab111fef13": {
+        "src": "设置失败",
+        "dst": "Indstilling mislykkedes"
+    },
+    "94954236547ad65c9acf1364abeb0d46": {
+        "src": "获取负载信息失败: {}",
+        "dst": "Kunne ikke hente indlæsningsoplysninger: {}"
+    },
+    "c525ab51953b097feba371a8ec00ebde": {
+        "src": "获取负载信息失败",
+        "dst": "Kunne ikke hente indlæsningsinformation"
+    },
+    "57e4a8fc8875bc34a1f2711b46f78473": {
+        "src": "面板API初始化失败: {}",
+        "dst": "Initialisering af panelet API mislykkedes: {}"
+    },
+    "29909335f1aa45bfbdec14c6dbc031d8": {
+        "src": "登录失败: {}",
+        "dst": "Login mislykkedes: {}"
+    },
+    "f25fd8899d4f6c107b14b53633250007": {
+        "src": "面板地址不支持HTTPS，请修改面板URL地址协议为HTTP",
+        "dst": "Paneladressen understøtter ikke HTTPS. Ændr panelens URL- adresseprotokol til HTTP"
+    },
+    "b6076a055fe6cc0473e0d313dc58a049": {
+        "src": "登录失败",
+        "dst": "Login mislykkedes"
+    },
+    "8b06dd4b628faf40e6847a3321515cc4": {
+        "src": "验证失败，请检查面板API配置是否正确",
+        "dst": "Bekræftelse mislykkedes, tjek venligst om panelets API-konfiguration er korrekt"
+    },
+    "cd209abfc45613d8295aa2e06ab97a19": {
+        "src": "验证失败，请检查面板APP插件配置是否正确",
+        "dst": "Bekræftelse mislykkedes, tjek venligst om konfigurationen af panelet APP plugin er korrekt"
+    },
+    "ad4913aed2a428fb2452de4dd3511cbb": {
+        "src": "连接失败，若通过浏览器可以访问，请检查面板地址及访问协议是否正确",
+        "dst": "Forbindelse mislykkedes. Hvis det kan tilgås via en browser, tjek venligst om panelets adresse og adgangsprotokol er korrekte"
+    },
+    "1afebb96bc856e4d7b857d80aed39e47": {
+        "src": "面板拒绝访问，请检查面板IP禁用和域名白名单配置",
+        "dst": "Paneladgang nægtet, tjek venligst panel IP deaktiveret og domæne hvidliste konfiguration"
+    },
+    "ada628efcb843b63aa8aac6d81b49192": {
+        "src": "IP校验失败，请检查面板API的IP白名单配置是否正确",
+        "dst": "IP-verifikation mislykkedes, tjek venligst om IP-hvidlistekonfigurationen af panelet API er korrekt"
+    },
+    "fcc15a0f071d34da3292dc2b325bc6fa": {
+        "src": "连接失败: ",
+        "dst": "Forbindelse mislykkedes:"
+    },
+    "329ecd4aed03e7900af1c2c1c7610968": {
+        "src": "负载信息获取已经启动",
+        "dst": "Hentning af indlæsningsinformation er påbegyndt"
+    },
+    "c17e198ede19b123dba52565325ce65b": {
+        "src": "负载信息同步已经启动",
+        "dst": "Synkronisering af indlæsning af oplysninger er startet"
+    },
+    "5a160b76ca293d591b5a70f90cf0f3b3": {
+        "src": "未启动负载信息获取",
+        "dst": "Kunne ikke starte hentning af indlæsningsinformation"
+    },
+    "22d7b4f5a8de96d014079711cdf7e99a": {
+        "src": "负载信息同步已经停止",
+        "dst": "Synkronisering af indlæsning af oplysninger er stoppet"
+    },
+    "e441b11ee8c3ea0399233e5b55128318": {
+        "src": "验证失败",
+        "dst": "Verifikation mislykkedes"
+    },
+    "bff0e83714a9073c270776c37cc64791": {
+        "src": "参数错误",
+        "dst": "Parameterfejl"
+    },
+    "163b0aa486b8c520e8384a1edc4fc5c5": {
+        "src": "抱歉，暂不支持需要认证的HTTP代理",
+        "dst": "Beklager, vi understøtter i øjeblikket ikke HTTP-proxyer, der kræver godkendelse"
+    },
+    "25826b01b62ec7ba019a0a06e342704b": {
+        "src": "代理服务器已存在,请勿重复添加",
+        "dst": "Proxyserver eksisterer allerede, tilføj den ikke igen"
+    },
+    "1eaa395d269be30afe03ea2f88dd0cf7": {
+        "src": "代理服务器验证失败:{}",
+        "dst": "Bekræftelse af proxyserver mislykkedes: {}"
+    },
+    "66b366e6a2b748f51b945afd75eabc63": {
+        "src": "添加成功,但测试代理服务器连接异常:{}",
+        "dst": "Tilføj undtagelse til proxyserverforbindelse, men test: {}"
+    },
+    "906658887721d4734ac67b6b016fb2b5": {
+        "src": "添加成功,代理服务器出口IP为:{}",
+        "dst": "Tilføjet med succes, proxy server eksport IP er: {}"
+    },
+    "2f64db05c68afbfcc12d58ef9cd32bb8": {
+        "src": "添加失败：插入数据失败",
+        "dst": "Tilføj mislykkedes: Dataindsættelse mislykkedes"
+    },
+    "1051a31d945564f7f26ca4cdab605740": {
+        "src": "指定代理服务器配置不存在",
+        "dst": "Den angivne proxyserverkonfiguration eksisterer ikke"
+    },
+    "6b272ea07b414d3d52926dc70e7c5a21": {
+        "src": "修改成功,但测试代理服务器连接异常:{}",
+        "dst": "Ændringen lykkedes, men testproxyserverforbindelsen var unormal: {}"
+    },
+    "9107b71b43903404d4a0c31a8a954ffc": {
+        "src": "修改成功，代理服务器出口IP为:{}",
+        "dst": "Ændret med succes, proxyservereksport IP er: {}"
+    },
+    "2f28eebcbaecb5b60f1688f7f8362fd0": {
+        "src": "修改失败：更新数据失败",
+        "dst": "Ændring mislykkedes: Opdatering af data mislykkedes"
+    },
+    "5bcb712747fcec18222db81941f7fe93": {
+        "src": "请选择导入的SSH备份文件",
+        "dst": "Vælg den SSH-sikkerhedskopi, der skal importeres"
+    },
+    "f8ba6bae844a9f402df21be05529ad75": {
+        "src": "导入数据为空",
+        "dst": "De importerede data er tomme"
+    },
+    "0337a9cbf6acb6eb201626290214005e": {
+        "src": "导入失败，数据格式错误",
+        "dst": "Import mislykkedes, dataformatfejl"
+    },
+    "997b750a570e00eb877f5231953ebe25": {
+        "src": "请选择保存路径",
+        "dst": "Vælg gem sti"
+    },
+    "898724b6925cce18b6e03ad8d9ca9460": {
+        "src": "删除屏幕录像成功",
+        "dst": "Skærmoptagelse slettet med succes"
+    },
+    "bfdae17af258f43d665e4e0e56eb126d": {
+        "src": "删除屏幕录像失败",
+        "dst": "Sletning af skærmoptagelse mislykkedes"
+    },
+    "00d036d4b988c416113dcd8d0ea4b8ce": {
+        "src": "安装Trzsz",
+        "dst": "Installer Trzsz"
+    },
+    "4f66ae009650e09930f483b88e15e24b": {
+        "src": "安装宝塔面板9.0稳定版",
+        "dst": "Installer Pagoda Panel 9.0 Stable Edition"
+    },
+    "7bcb6e987928c3ad080b2cdd93844ca7": {
+        "src": "标题不能为空",
+        "dst": "Titel kan ikke være tom"
+    },
+    "9f0dc1288ac6a40a68772c82517b1c74": {
+        "src": "内容不能为空",
+        "dst": "Indholdet kan ikke være tomt"
+    },
+    "bb688578cfa59439f33ff7660ac3a320": {
+        "src": "添加常用命令成功",
+        "dst": "Tilføjet almindelige kommandoer med succes"
+    },
+    "12c0cc7822dbe3a884afc6b4c9a19078": {
+        "src": "添加常用命令失败",
+        "dst": "Kunne ikke tilføje almindelige kommandoer"
+    },
+    "e500d11e004e9a879efc23b3a871b6e3": {
+        "src": "修改常用命令成功",
+        "dst": "Ændrede almindelige kommandoer med succes"
+    },
+    "b4a5fe97a52d2cf39037b6a51411655a": {
+        "src": "修改常用命令失败",
+        "dst": "Kunne ikke ændre almindelige kommandoer"
+    },
+    "1d3dd790a98a23a2f82b36acdf57d557": {
+        "src": "删除常用命令成功",
+        "dst": "Slettede almindelige kommandoer med succes"
+    },
+    "1f90a337a68ddeef3802461ba50d6950": {
+        "src": "删除常用命令失败",
+        "dst": "Kunne ikke slette almindelige kommandoer"
+    },
+    "f8ecbd3eac6dbfa8affbb27c953664dc": {
+        "src": "分组名称已存在",
+        "dst": "Gruppenavn eksisterer allerede"
+    },
+    "ad196b45560fd7933685474c3beeeda3": {
+        "src": "添加分组成功",
+        "dst": "Gruppe tilføjet med succes"
+    },
+    "36e66ed3747fc28d4feff37a643f607b": {
+        "src": "添加分组失败",
+        "dst": "Tilføjelse af gruppe mislykkedes"
+    },
+    "3560acac74b167fc85549df855636327": {
+        "src": "修改分组成功",
+        "dst": "Gruppeændring vellykket"
+    },
+    "340414adf0205e6b52599d6daac49ee5": {
+        "src": "修改分组失败",
+        "dst": "Gruppeændring mislykkedes"
+    },
+    "9b64fbe98d9778ac002cd9f3d87d78a5": {
+        "src": "默认分组不能删除",
+        "dst": "Standardgruppering kan ikke slettes"
+    },
+    "019a095fae27c659206e8650d5c94e86": {
+        "src": "删除分组成功",
+        "dst": "Gruppe slettet med succes"
+    },
+    "158d66af2a0a517ecb8876cc6e15f5de": {
+        "src": "删除分组失败",
+        "dst": "Kunne ikke slette gruppe"
+    },
+    "8b78c3c261eb04d9e725319332ce8705": {
+        "src": "获取SSH主机地区失败: ",
+        "dst": "Kunne ikke hente SSH- værtsområde:"
+    },
+    "fd208f0ed24a0a56cb7a240c3869a28a": {
+        "src": "代理信息不存在",
+        "dst": "Proxyoplysninger findes ikke"
+    },
+    "368810482d4619a42f9bef5a108334db": {
+        "src": "只能通过SOCKS5代理连接SSH",
+        "dst": "SSH kan kun forbindes via SOCKS5 proxy"
+    },
+    "e462f7cc0a8a701ead3a196c56c2119f": {
+        "src": "指定主机和端口已存在",
+        "dst": "Den angivne vært og port findes allerede"
+    },
+    "d0d8b1cf575ed6be92897dab6a348af5": {
+        "src": "绑定SSH信息成功",
+        "dst": "Sikkert bundet SSH-information"
+    },
+    "39adbe93bb7e97f8059834a930724e19": {
+        "src": "绑定SSH信息失败",
+        "dst": "Kunne ikke binde SSH- information"
+    },
+    "80da6386813b71631ee66a6f6a4953f8": {
+        "src": "修改SSH信息失败",
+        "dst": "Kunne ikke ændre SSH- information"
+    },
+    "bfec7ebdfbb0409e9aa1bff56e53f085": {
+        "src": "修改SSH信息[{}]成功",
+        "dst": "Ændret SSH-information med succes [{}]"
+    },
+    "6d15793f76943ea644033afe74836b4d": {
+        "src": "修改SSH信息成功",
+        "dst": "Ændret SSH-information med succes"
+    },
+    "f19b032c7f3935452e4d4422af3967b0": {
+        "src": "修改SSH代理失败",
+        "dst": "Kunne ikke ændre SSH- proxy"
+    },
+    "8041e8dca3e3f386193596141262cedd": {
+        "src": "修改SSH代理成功",
+        "dst": "Ændret SSH- proxy med succes"
+    },
+    "283bde6344e1fd41ea885f858f497541": {
+        "src": "删除SSH信息失败",
+        "dst": "Sletning af SSH- oplysninger mislykkedes"
+    },
+    "1ac2602216d70dbfc95f5df0ad8318d5": {
+        "src": "删除SSH信息[{}]成功",
+        "dst": "Slettet SSH-oplysninger [{}]"
+    },
+    "762d5ff24eef0453ba843ecd2a445cac": {
+        "src": "删除SSH信息成功",
+        "dst": "Slettede SSH-oplysninger med succes"
+    },
+    "a5a2c6b0f1d32d03a3798d257b299344": {
+        "src": "最多只能设置{}个常用SSH",
+        "dst": "Højst {} almindeligt anvendt SSH kan indstilles"
+    },
+    "33dddf06e2e7172f38515728385986f1": {
+        "src": "SSH ID不能为空",
+        "dst": "SSH- id kan ikke være tom"
+    },
+    "a32523b066f57f90528876839709e6b8": {
+        "src": "服务器信息不存在",
+        "dst": "Serverinformation eksisterer ikke"
+    },
+    "4159d3dc983973ab4083682bbc3c27e9": {
+        "src": "断开终端成功",
+        "dst": "Afbrydelse af terminalen"
+    },
+    "1893f2d450da113f0fd3924d89cb96f4": {
+        "src": "绑定失败: {}",
+        "dst": "Binding mislykkedes: {}"
+    },
+    "e976799a08827c3d213f0bd62a4ac855": {
+        "src": "绑定失败，用户数据写入失败",
+        "dst": "Binding mislykkedes, brugerdataskrivning mislykkedes"
+    },
+    "87077da60475843650ec796ba099ef54": {
+        "src": "用户已绑定",
+        "dst": "Brugerbundet"
+    },
+    "5c581541c76e149e889357269480abba": {
+        "src": "用户未绑定",
+        "dst": "Bruger ikke bundet"
+    },
+    "1c4385b583676946a74c312bec7fff2c": {
+        "src": "解绑成功",
+        "dst": "Afbind med succes"
+    },
+    "913643d07c3464ef3719a4f17864e5a0": {
+        "src": "解绑失败",
+        "dst": "Ubinding mislykkedes"
+    },
+    "37a1d9ba6e85b042a740d0278bc5c07b": {
+        "src": "主窗口不存在",
+        "dst": "Hovedvinduet eksisterer ikke"
+    },
+    "0f26c77eeeddd1b629375c7bed863e3c": {
+        "src": "视图已经存在,直接显示",
+        "dst": "Visning eksisterer allerede, vises direkte"
+    },
+    "85c491bd6b849d8d0ab25b8e18443886": {
+        "src": "请检查网络连接",
+        "dst": "Tjek venligst netværksforbindelsen"
+    },
+    "5f4aa5fb3a72e3e1e7f3c85c3503281a": {
+        "src": "连接超时",
+        "dst": "forbindelse timeout"
+    },
+    "8c424882c184d2f308fe203ec5bd45f8": {
+        "src": "无法连接到网络",
+        "dst": "Kan ikke oprette forbindelse til netværket"
+    },
+    "4514cba7ad63e7cadb6cd7c0ae9e83e3": {
+        "src": "网络连接被重置",
+        "dst": "Nulstilling af netværksforbindelse"
+    },
+    "de5c162726c70260f0197da3fa66ac06": {
+        "src": "无法解析域名",
+        "dst": "Kan ikke løse domænenavn"
+    },
+    "4db2bba3dcc53d4259fbfb11f87989e4": {
+        "src": "连接被中止",
+        "dst": "Forbindelse afbrudt"
+    },
+    "ddfd22a2a2dfc6026be18ca3f50f8b1a": {
+        "src": "页面加载失败，{}",
+        "dst": "Sideindlæsning mislykkedes {}"
+    },
+    "d26094e5d7887c887ac30fa160c426a6": {
+        "src": "错误码：{}，错误描述：{}",
+        "dst": "Fejlkode: {}, fejlbeskrivelse: {}"
+    },
+    "49ff0da8a836bfb8c93567363b29abbd": {
+        "src": "视图创建成功",
+        "dst": "Visning oprettet med succes"
+    },
+    "3dc496fe548946425c3b123b2d4d8647": {
+        "src": "视图已销毁",
+        "dst": "Visning ødelagt"
+    },
+    "5b25c38db6facd31d3d7474e543f16b4": {
+        "src": "视图不存在",
+        "dst": "Visning eksisterer ikke"
+    },
+    "c92c13b6673bdd79ad8f6e01bdaf659e": {
+        "src": "视图已显示",
+        "dst": "Visning vist"
+    },
+    "84382514c60d47edf2ff4d02bd0ed0e3": {
+        "src": "视图已隐藏",
+        "dst": "Vis skjult"
+    },
+    "03680923a6013fc279f39e7f5755d40e": {
+        "src": "视图已刷新",
+        "dst": "Vis opdateret"
+    },
+    "8327d173cfd999dd47cb14e6fb465c62": {
+        "src": "视图位置设置成功",
+        "dst": "Vis positionsindstilling vellykket"
+    },
+    "2631454c00ce8bb3bb64970d28f7038a": {
+        "src": "视图自动调整大小设置成功",
+        "dst": "Vis automatisk størrelse indstillet med succes"
+    },
+    "88174379edaac332f8eb2dadbe17df5d": {
+        "src": "窗口已最小化",
+        "dst": "Vindue minimeret"
+    },
+    "92f2e0b6023282818555491a1870f63e": {
+        "src": "窗口已关闭",
+        "dst": "Vindue lukket"
+    },
+    "1e5b2a0d2af8731094be5d90fd3899e8": {
+        "src": "窗口已取消置顶",
+        "dst": "Vinduet er blevet fjernet"
+    },
+    "d39bc99f10e4fdc600e0ffd04ea1b008": {
+        "src": "窗口已置顶",
+        "dst": "Vinduet er placeret øverst"
+    },
+    "1f642be87d292ef404c44dd1863884d0": {
+        "src": "已最小化到托盘",
+        "dst": "Minimeret til bakke"
+    },
+    "b9a412cd4ebfb04fbbc657f5bcded7e4": {
+        "src": "应用已退出",
+        "dst": "Programmet er afsluttet"
+    },
+    "36f896ff6930d433a2a885c4402f12a6": {
+        "src": "应用已重新加载",
+        "dst": "Programmet er blevet genindlæst"
+    },
+    "447374227683c82c70bf8e44bca69465": {
+        "src": "下载任务已取消",
+        "dst": "Downloadopgaven er blevet annulleret"
+    },
+    "6a8ca6a2eb112eb7b1d5145b478c1b88": {
+        "src": "代理服务器已启动: {}:{}",
+        "dst": "Proxyserver startet: {}: {}"
+    },
+    "9a43eefa909fdbdecd67e9205b883f14": {
+        "src": "获取组列表失败: ",
+        "dst": "Kunne ikke hente gruppeliste:"
+    },
+    "cd6f79e7bff1337c12c86a15ceedd6da": {
+        "src": "面板",
+        "dst": "panel"
+    },
+    "4722bc0c56958f4a819276b296f678e9": {
+        "src": "终端",
+        "dst": "terminal"
+    },
+    "30269ef8c672bf10868d90c3a0cef851": {
+        "src": "群发",
+        "dst": "Masseafsendelse"
+    },
+    "a636765e10702628f729223675c1eaef": {
+        "src": "您点击关闭按钮，您需要：",
+        "dst": "Du klikker på knappen Luk, skal du:"
+    },
+    "625fb26b4b3340f7872b411f401e754c": {
+        "src": "取消",
+        "dst": "annullér"
+    },
+    "7a161c7a8615d421950989e27338ca53": {
+        "src": "绑定宝塔官网账号",
+        "dst": "Bind Baota officielle hjemmeside konto"
+    },
+    "5f9688b6750744527a3cc32ea9f2e71e": {
+        "src": "请输入宝塔官网账号",
+        "dst": "Indtast venligst Baota officielle hjemmeside konto"
+    },
+    "e39ffe99e93cb6cc8d5978ed21660740": {
+        "src": "请输入密码",
+        "dst": "Indtast venligst en adgangskode"
+    },
+    "402d19e50fff44c827a4f3b608bd5812": {
+        "src": "登录",
+        "dst": "Log ind"
+    },
+    "e875b6d4f8c50c3d813764f3ba417759": {
+        "src": "注册账号",
+        "dst": "Registrer en konto"
+    },
+    "0974fb72f657f7be1cc33bd253aa0c0f": {
+        "src": "忘记密码",
+        "dst": "Glemt adgangskode"
+    },
+    "4cd514f974e7a7ab1181812cba4983ab": {
+        "src": "问题反馈",
+        "dst": "Problemfeedback"
+    },
+    "04c8f7267c987a4d04de501646a70722": {
+        "src": "登录中...",
+        "dst": "Loger ind"
+    },
+    "20a495364a9fa0812a97d68215b093e4": {
+        "src": "复制成功",
+        "dst": "Kopiér vellykket"
+    },
+    "5154ae17da8028de93c63af5c3a55818": {
+        "src": "复制失败",
+        "dst": "Kopiér mislykkedes"
+    },
+    "41dcb5f3145548b2e2988dcc08b6d2e9": {
+        "src": "请输入管理密码",
+        "dst": "Indtast adgangskoden til administrationen"
+    },
+    "fa7ffa2d2140e9438c2d1633cfc54560": {
+        "src": "解锁",
+        "dst": "Lås op"
+    },
+    "f1b89dabdfcab36f48783808dd3890ef": {
+        "src": "请设置管理密码",
+        "dst": "Angiv venligst en administreringsadgangskode"
+    },
+    "af816325ecb88d91d8292c89e84331e0": {
+        "src": "确认管理密码",
+        "dst": "Bekræft adgangskode til administration"
+    },
+    "e83a256e4f5bb4ff8b3d804b5473217a": {
+        "src": "确认",
+        "dst": "bekræft"
+    },
+    "763a09c7109d3079bdb1f664d95aa8c5": {
+        "src": "每次打开程序所需的解锁步骤",
+        "dst": "De nødvendige oplåsningstrin, hver gang programmet åbnes"
+    },
+    "7a1d58863733dc92683070b6ab59f167": {
+        "src": "管理密码无法找回，请妥善保管",
+        "dst": "Administrationsadgangskoden kan ikke hentes, hold den sikker"
+    },
+    "f0d6401ffe6327f2942e58a221c89c43": {
+        "src": "两次输入密码不一致",
+        "dst": "Adgangskoden indtastet to gange er inkonsekvent"
+    },
+    "d28230bd634d3815f70285777eb6f614": {
+        "src": "添加面板",
+        "dst": "Tilføj panel"
+    },
+    "8d9a071ee2ef45e045968e117a205c07": {
+        "src": "导入",
+        "dst": "Importér"
+    },
+    "55405ea6ff6fd823ffab7e6b10ddfa95": {
+        "src": "导出",
+        "dst": "eksport"
+    },
+    "c5e1efd994d7e44addb4b957c363abcb": {
+        "src": "管理分组",
+        "dst": "Ledelsesgruppe"
+    },
+    "1844b0ede59f80789e7a4c580d8e6d7f": {
+        "src": "搜索服务器IP/名称",
+        "dst": "Søg efter server IP/ navn"
+    },
+    "d7098f5050f017673319c5db1473ada7": {
+        "src": "打开",
+        "dst": "åben"
+    },
+    "95b351c86267f3aedf89520959bce689": {
+        "src": "编辑",
+        "dst": "redigér"
+    },
+    "2f4aaddde33c9b93c36fd2503f3d122b": {
+        "src": "删除",
+        "dst": "slet"
+    },
+    "4956eb6aaaaa30b4e854ab7b76e18e76": {
+        "src": "负载",
+        "dst": "belastning"
+    },
+    "7ddbe15c845fa27a2bab496183042ca6": {
+        "src": "网络",
+        "dst": "netværk"
+    },
+    "17c443974b6ff2649e9a401f1b1a47b3": {
+        "src": "{}核",
+        "dst": "{} Core"
+    },
+    "9932551cd5b135b3ca97042293389e12": {
+        "src": "内存",
+        "dst": "Hukommelse"
+    },
+    "83fe6dc9d738ad9f8802e4fbebe7f4c2": {
+        "src": "[离线]",
+        "dst": "[Offline]"
+    },
+    "9a18a7b8378443b9548f24ee1a53b434": {
+        "src": "欢迎来到面板管理系统",
+        "dst": "Velkommen til panelstyringssystemet"
+    },
+    "c6ae0d10bb8e58aa5b52966e3e06a5bc": {
+        "src": "点击添加面板",
+        "dst": "Klik for at tilføje panel"
+    },
+    "7499f450a076023270ea6e7e39aac3f3": {
+        "src": "导入文件",
+        "dst": "Importér fil"
+    },
+    "0357cdb461f7b23939deeebd5f5e17a1": {
+        "src": "免费版",
+        "dst": "Free"
+    },
+    "3f086416bf3a015e1c20067928fe530e": {
+        "src": "专业版",
+        "dst": "Pro"
+    },
+    "94ac1fb37ff7bd0f071521d1a1afe47a": {
+        "src": "企业版",
+        "dst": "Enterprise"
+    },
+    "dd1f7b9361d746bf7143954d3c6bbcf8": {
+        "src": "获取中",
+        "dst": "At komme ind"
+    },
+    "29913a0cc32cfc87754bcc021e8031a4": {
+        "src": "可管理的免费版数量最多10台，请考虑升级到专业版或企业版",
+        "dst": "Det maksimale antal gratis versioner, der kan administreres, er 10. Overvej at opgradere til professionel version eller virksomhedsversion"
+    },
+    "c3b16676a7a2ba6b479ab20acb7583c1": {
+        "src": "无法连接到面板，请检查网络或服务状态",
+        "dst": "Kan ikke oprette forbindelse til panelet, tjek venligst netværks- eller servicestatus"
+    },
+    "ba39798f16235f99dca82e537811ceb4": {
+        "src": "是否将【{}】从列表中删除?",
+        "dst": "Vil du fjerne [{}] fra listen?"
+    },
+    "a047fff2669b8bc613e5a1166b1e03de": {
+        "src": "删除面板",
+        "dst": "Slet panel"
+    },
+    "53dfd8b6b2601f9258ebc3ea42e11261": {
+        "src": "编辑分组",
+        "dst": "Redigér gruppe"
+    },
+    "ddceab0399c8b1e9dc531e5ecaf57804": {
+        "src": "添加分组",
+        "dst": "Tilføj gruppe"
+    },
+    "1014b33d226654f1a8ea432c3ee2f821": {
+        "src": "分组名称",
+        "dst": "Gruppenavn"
+    },
+    "0c64160afafcd53361a41abbb112dfe8": {
+        "src": "请输入分组名称",
+        "dst": "Indtast gruppenavnet"
+    },
+    "be5fbbe34ce9979bfb6576d9eddc5612": {
+        "src": "保存",
+        "dst": "konservering"
+    },
+    "b58c7549c0246c55b9cac96383200338": {
+        "src": "添加",
+        "dst": "tilføj til"
+    },
+    "e9eca15e8cf4b6459fcf22f7bb32ad12": {
+        "src": "编辑{}",
+        "dst": "Redigér {}"
+    },
+    "d7ec2d3fea4756bc1642e0f10c180cf5": {
+        "src": "名称",
+        "dst": "navn"
+    },
+    "747713bfcf0345777eae919b8eb49759": {
+        "src": "请输入标题名称",
+        "dst": "Indtast navnet på titlen"
+    },
+    "b78e5305ebcec48a0cbebdac294124e1": {
+        "src": "验证类型",
+        "dst": "Verifikationstype"
+    },
+    "d5202ff2cb49cf8f7e1a37b7a9f56d5f": {
+        "src": "APP插件",
+        "dst": "APP- plugin"
+    },
+    "3f9810121c2076736e3d02b6285cfbfb": {
+        "src": "推荐",
+        "dst": "anbefale"
+    },
+    "61485592322f2a544fa4a9dfce102be6": {
+        "src": "面板URL",
+        "dst": "Panel URL"
+    },
+    "9a7d0e87398ab262265204c120c42fb4": {
+        "src": "*请务必确保您已正确配置面板【IP白名单】，否则面板将无法直接接管",
+        "dst": "* Sørg for, at du har konfigureret panelet 'IP Whitelist' korrekt, ellers vil panelet ikke kunne overtage direkte"
+    },
+    "cdb81cf67c392f7fd736c0c1e437bade": {
+        "src": "密钥",
+        "dst": "hemmelig nøgle"
+    },
+    "57a3e3e704644310fb288f2d949141f9": {
+        "src": "面板API接口密钥",
+        "dst": "Panel API interface key"
+    },
+    "35e6ad17ab4d3dcedb53dac186d05b56": {
+        "src": "APP密钥",
+        "dst": "APP- nøgle"
+    },
+    "829abe5a8dcd0579a340d20636b59276": {
+        "src": "分组",
+        "dst": "gruppering"
+    },
+    "fc954d25ec153a16f143e2762710503f": {
+        "src": "代理",
+        "dst": "agent"
+    },
+    "1efd7d0dad4aebe4616c758995ac642c": {
+        "src": "IP代理",
+        "dst": "IP- proxy"
+    },
+    "d6bac394276489bb6e5d0584934a86fd": {
+        "src": "添加代理",
+        "dst": "Tilføj proxy"
+    },
+    "5072388e4bb858207a94fb09ca4128f4": {
+        "src": "第一步：在面板【软件商店】安装【堡塔APP】插件1.2以上版本",
+        "dst": "Trin 1: Installer \"Baota APP\" plugin version 1.2 eller nyere i panelet \"Software Store\""
+    },
+    "973be817007a0b7090ff4ded0f4b638f": {
+        "src": "第二步：点击【复制绑定密钥】按钮获取密钥",
+        "dst": "Trin 2: Klik på 'Kopier Binding Key' knappen for at få fat i nøglen"
+    },
+    "f73639d5275b7b5724cbd3d95ae83aa7": {
+        "src": "第三步：粘贴到【密钥】输入框，并点击【绑定】按钮",
+        "dst": "Trin 3: Sæt ind i [Key] input boksen og klik på [Bind] knappen"
+    },
+    "7d9fc4ef764bc37035fdd9f2f7336e64": {
+        "src": "第四步：回到【堡塔APP】插件上点击【确认】按钮来完成绑定。",
+        "dst": "Trin 4: Vend tilbage til \"Fortress APP\" plugin og klik på \"Bekræft\" knappen for at fuldføre bindingen."
+    },
+    "a4afb1bca0701700b3f5f28b03e0d863": {
+        "src": "第一步：填写面板URL地址，示例：https://192.168.1.2:8888",
+        "dst": "Trin 1: Udfyld panelets URL-adresse, for eksempel: https://192.168.1.2:8888"
+    },
+    "aacab1bb99565b451a0ffd8610bdceb5": {
+        "src": "第二步：打开面板，转到【面板设置】页面，点击【API接口配置】开启API接口",
+        "dst": "Trin 2: Åbn panelet, gå til siden [Panelindstillinger], klik på [API Interface Configuration] for at aktivere API interface"
+    },
+    "25348cad113a3fc59e6ae07d0c4c1cbe": {
+        "src": "第三步：在【API接口配置】窗口中复制【接口密钥】",
+        "dst": "Trin 3: Kopier Interface Key fra vinduet API Interface Configuration"
+    },
+    "7c690d3ee87d0fa1b4b26a10b3eba5bb": {
+        "src": "第四步：回到多机管理窗口，粘贴到【密钥】输入框，并点击【确认】按钮",
+        "dst": "Trin 4: Gå tilbage til vinduet til administration af flere maskiner, indsæt det i indtastningsfeltet [Key], og klik på knappen [Bekræft]."
+    },
+    "f4f12c7a2c38440ac06aae42cce36673": {
+        "src": "绑定",
+        "dst": "bindende"
+    },
+    "0cb9011bdbb933fb78c4a33e0a01f2f3": {
+        "src": "请输入面板URL",
+        "dst": "Indtast panelets URL"
+    },
+    "d1b5fc1461d0e00edf9e8b6b435668aa": {
+        "src": "URL格式不正确，例：https://www.bt.cn:8888",
+        "dst": "URL-formatet er forkert, for eksempel: https://www.bt.cn:8888"
+    },
+    "6ced28fd8ea45adbc531cfbcaabb69e8": {
+        "src": "请输入安全入口",
+        "dst": "Indtast venligst den sikre indgang."
+    },
+    "094bc51878eec89fdc56820949484663": {
+        "src": "请输入密钥",
+        "dst": "Indtast nøglen"
+    },
+    "f821a75d8623ea11efc1953d94f0a54e": {
+        "src": "请输入账号",
+        "dst": "Indtast venligst din konto"
+    },
+    "9daf29dcc9980f753b8fd62dc393cb20": {
+        "src": "请回到【堡塔APP】插件上点击【确认】按钮来完成绑定",
+        "dst": "Gå tilbage til \"Fortress APP\" plugin og klik på \"Bekræft\" knappen for at fuldføre bindingen"
+    },
+    "86cc8f57aff84a6719189ba19da579f1": {
+        "src": "不使用代理",
+        "dst": "Brug ikke en proxy"
+    },
+    "0dbd6b22c40ca650571c08e7bb32790f": {
+        "src": "分组管理",
+        "dst": "Koncernledelse"
+    },
+    "21efd88b67a39834582ad99aabb9dc60": {
+        "src": "暂无数据",
+        "dst": "Ingen data tilgængelige i øjeblikket"
+    },
+    "2b6bc0f293f5ca01b006206c2535ccbc": {
+        "src": "操作",
+        "dst": "operation"
+    },
+    "febf19255afa70422accd7c4cf930a6d": {
+        "src": "删除分组",
+        "dst": "Slet gruppe"
+    },
+    "823ba302bc2778e88814bcecb550407c": {
+        "src": "正在创建面板应用",
+        "dst": "Oprettelse af panelprogram"
+    },
+    "e366ccf1556c0672dcecba135ed5472e": {
+        "src": "设置",
+        "dst": "oprettet"
+    },
+    "7035c62fb00576fed9b3a1f2b7d48e6c": {
+        "src": "账号",
+        "dst": "kontonummer"
+    },
+    "e1d8237cce3094f6d75bc7eaece5b670": {
+        "src": "同步至云端",
+        "dst": "Synkroniser med skyen"
+    },
+    "42baadd027a3e6f800d0556c164be67b": {
+        "src": "同步密码",
+        "dst": "Synkronisér adgangskode"
+    },
+    "c770230b52a1d6473e371b9198874044": {
+        "src": "*开启同步后，同一账号且同一同步密码的其他设备将自动同步本设备的机器信息",
+        "dst": "* Efter aktivering af synkronisering synkroniserer andre enheder med samme konto og synkroniseringsadgangskode automatisk maskineoplysningerne på denne enhed"
+    },
+    "dde4802a0ab40d5c638c4e2486037d00": {
+        "src": "免密登录",
+        "dst": "Log ind uden adgangskode"
+    },
+    "1ecd3f555bfbe1cce6f8cfb997758176": {
+        "src": "修改管理密码",
+        "dst": "Ændr adgangskode til administration"
+    },
+    "ea473119a7720728d264aed36465f41d": {
+        "src": "*开启免密登录后，无需每次打开应用时输入管理密码",
+        "dst": "* Efter aktivering af adgangskodefri login, er der ingen grund til at indtaste administrationsadgangen hver gang programmet åbnes"
+    },
+    "a1c76c6e1bd796959e536718e04d10ca": {
+        "src": "主题颜色",
+        "dst": "Temafarve"
+    },
+    "42e32be300b0e0f9495bde1e31243be1": {
+        "src": "明亮模式",
+        "dst": "Lys tilstand"
+    },
+    "9aee9c61a89745e3f2179ca5f19d65ca": {
+        "src": "暗黑模式",
+        "dst": "Mørk tilstand"
+    },
+    "40fd551a80d28ae426891f9da92018ff": {
+        "src": "关闭按钮",
+        "dst": "luk knap"
+    },
+    "52f597451758653f3261aa3bf630a851": {
+        "src": "最小化到系统托盘",
+        "dst": "Minimér til systembakke"
+    },
+    "c9d13c9356ee5a747b1f1d05ef85a0c2": {
+        "src": "关闭应用",
+        "dst": "Luk programmet"
+    },
+    "9b601b8efa642f1b3c8159cd20d061b3": {
+        "src": "当前版本",
+        "dst": "nuværende version"
+    },
+    "4ff133709c94f96cb382eff393b1c970": {
+        "src": "检查更新",
+        "dst": "Søg efter opdateringer"
+    },
+    "a0f3a1329ce3e1db140440a04e556585": {
+        "src": "系统语言",
+        "dst": "Systemsprog"
+    },
+    "e2b801a9fc42839c4be7a74b79254fb0": {
+        "src": "代理池",
+        "dst": "Proxypulje"
+    },
+    "a12a3079e14ced46e69ba52b8a90b21a": {
+        "src": "IP",
+        "dst": "IP"
+    },
+    "c76cfefe72716629558a5cc0148355b0": {
+        "src": "端口",
+        "dst": "havn"
+    },
+    "226b0912184333c81babf2f1894ec0c1": {
+        "src": "类型",
+        "dst": "type"
+    },
+    "ee39244db471d95bca5fec640291d577": {
+        "src": "[未绑定宝塔账号]",
+        "dst": "[Ubundet Baota konto]"
+    },
+    "0cfb94218d4d2a2e774a0beb759b7e63": {
+        "src": "请绑定宝塔账号且设置同步密码后再开启同步至云端",
+        "dst": "Bind Baota-kontoen og indstil en synkroniseringsadgangskode, før synkronisering aktiveres til skyen"
+    },
+    "bb8b0b05e9ee33b5ff1509ba16e1b265": {
+        "src": "删除代理",
+        "dst": "Slet proxy"
+    },
+    "06286f140fede85bd517efc2306ea26a": {
+        "src": "编辑【{}】",
+        "dst": "Redigér [{}]"
+    },
+    "b6f633d74fbc606fe2fb44aa1dc4f063": {
+        "src": "请输入代理名称",
+        "dst": "Indtast proxynavnet"
+    },
+    "be1d94ae520cd31466865c8991acebca": {
+        "src": "请输入IP",
+        "dst": "Indtast IP- adresse"
+    },
+    "bc0eb7d7fd805c842fe191884df05c0d": {
+        "src": "请输入端口",
+        "dst": "Indtast venligst havnen"
+    },
+    "faa1ad5e5ce449ceb5786eb50b2b96d6": {
+        "src": "协议",
+        "dst": "aftale"
+    },
+    "bcdb662ee25c90b642c41d8c190c5c4d": {
+        "src": "无账号请留空",
+        "dst": "Ingen konto, lad være tom"
+    },
+    "a8105204604a0b11e916f3879aae3b0b": {
+        "src": "密码",
+        "dst": "adgangskode"
+    },
+    "b7c9e63d6854928d845ce2a484e0fe2d": {
+        "src": "无密码请留空",
+        "dst": "Ingen adgangskode, lad være tom"
+    },
+    "ea72f851c040b87c313d2267afe55b56": {
+        "src": "代理名称不能为空",
+        "dst": "Proxynavnet kan ikke være tomt"
+    },
+    "4ab1963f49aad2a08569468b84407867": {
+        "src": "正在设置代理信息...",
+        "dst": "Indstilling af proxyinformation"
+    },
+    "357a0ca2586bf0ea77dcab3dd7c2e7fb": {
+        "src": "管理密码",
+        "dst": "Administrer adgangskode"
+    },
+    "1611b9209336f7e539c25841586b11c3": {
+        "src": "设置同步密码",
+        "dst": "Sæt synkroniseringsadgangskode"
+    },
+    "5ae145c80c9d668e444cac8d81890e3d": {
+        "src": "请输入同步密码",
+        "dst": "Indtast synkroniseringsadgangskoden"
+    },
+    "b592adfa5893d5a1eaaec42fa0ff44bd": {
+        "src": "关闭当前终端视图",
+        "dst": "Luk nuværende terminalvisning"
+    },
+    "6d0825fd1e824785081f9783b2a31310": {
+        "src": "创建临时连接",
+        "dst": "Opret midlertidig forbindelse"
+    },
+    "98baab8803f9aa9d92cae306f549c0ce": {
+        "src": "双击服务器打开终端",
+        "dst": "Dobbeltklik på serveren for at åbne terminalen"
+    },
+    "9fe510cc0f346168659549cb53e0ffdc": {
+        "src": "添加服务器",
+        "dst": "Tilføj server"
+    },
+    "8b8f7170e4b3ca8ef123cbc3ac06fc98": {
+        "src": "复制会话",
+        "dst": "Kopiér session"
+    },
+    "f1ae05c8ace2482e9cdc8c28186000c4": {
+        "src": "关闭会话",
+        "dst": "Luk session"
+    },
+    "550621b770aac02bfb22a05dba8c88f3": {
+        "src": "已切换至后台运行",
+        "dst": "Skift til backend- operation"
+    },
+    "99e64dd9cf1cafc23540cae72c4004b6": {
+        "src": "编辑命令",
+        "dst": "Redigér kommando"
+    },
+    "9e8818a669533771a3dec4dc80a43460": {
+        "src": "添加命令",
+        "dst": "Tilføj kommando"
+    },
+    "6496a5a043bc01e5fe8beaa149335b78": {
+        "src": "命令名称",
+        "dst": "Kommandonavn"
+    },
+    "49fa6a566c70ff2ebbab456c465509cb": {
+        "src": "请输入命令名称",
+        "dst": "Indtast kommandonavnet"
+    },
+    "ccb91317c5460336fa40c1c7e96bfbeb": {
+        "src": "命令内容",
+        "dst": "Kommandoindhold"
+    },
+    "600539e7c6833c31e12ae72481ca1aaf": {
+        "src": "请输入命令内容",
+        "dst": "Indtast kommandoindholdet"
+    },
+    "081146116d8e51aca0635c704aa18fc2": {
+        "src": "命令名称不能为空",
+        "dst": "Kommandonavnet kan ikke være tomt"
+    },
+    "074d141afd2afbf5588a3e4325551c7d": {
+        "src": "命令内容不能为空",
+        "dst": "Kommandoindholdet kan ikke være tomt"
+    },
+    "65054228fa3ccc75c4b7f97d75b82935": {
+        "src": "快速连接",
+        "dst": "Hurtigforbindelse"
+    },
+    "30d23ef4f49e85f37f54786ff984032c": {
+        "src": "操作系统",
+        "dst": "operativsystem"
+    },
+    "2fab0d19c78f18d5a36b7755e4d610bd": {
+        "src": "请输入终端名称",
+        "dst": "Indtast terminalnavnet"
+    },
+    "7d040e68d226d8e67fb10759221bdf83": {
+        "src": "服务器IP",
+        "dst": "Server IP"
+    },
+    "0d1463aeac8136d2c098df796e21daf5": {
+        "src": "请输入服务器IP",
+        "dst": "Indtast serverens IP- adresse"
+    },
+    "819767ada1805b0f0117f10967b94d4d": {
+        "src": "用户名",
+        "dst": "brugernavn"
+    },
+    "96f062889687c48492c9e215beb9598e": {
+        "src": "请输入SSH用户名",
+        "dst": "Indtast venligst SSH brugernavn"
+    },
+    "f0ae0c35965314af5b5d0fbad6d95b87": {
+        "src": "验证方式",
+        "dst": "Verifikationsmetode"
+    },
+    "60930f2f956eb609c0166f5a21a3f531": {
+        "src": "密码验证",
+        "dst": "Bekræftelse af adgangskode"
+    },
+    "5b28d4ef7fad7fbb66a67676c80914e8": {
+        "src": "私钥验证",
+        "dst": "Verifikation af privat nøgle"
+    },
+    "c48a39a52b847b359aca5f602038ac35": {
+        "src": "请输入服务器密码",
+        "dst": "Indtast serverens adgangskode"
+    },
+    "d0eddb45e2a02ad45ab115b37df24c13": {
+        "src": "私钥",
+        "dst": "Privat nøgle"
+    },
+    "bfe4648b2a98001bb3125bdaeb161d1a": {
+        "src": "请输入SSH私钥",
+        "dst": "Indtast venligst SSH privat nøgle"
+    },
+    "fb3a9b43ce77a19c2519dc3c6a9cc8af": {
+        "src": "自动录屏",
+        "dst": "Automatisk skærmoptagelse"
+    },
+    "874a58161898f610757b03f56f7308cb": {
+        "src": "分辨率",
+        "dst": "opløsningsevne"
+    },
+    "f6b184767b4e3ec2aa93c019f1266f52": {
+        "src": "启动映射驱动器",
+        "dst": "Start kortlægningsdrift"
+    },
+    "30f7dd4ecdfa89a22c47ed6a743a7037": {
+        "src": "连接",
+        "dst": "forbind"
+    },
+    "08b1fa1304152d1213c1a758056e2350": {
+        "src": "请输入用户名",
+        "dst": "indtast ét brugernavn"
+    },
+    "185926bf986c784d03a9a73102da6542": {
+        "src": "全屏",
+        "dst": "Fuld skærm"
+    },
+    "07c60b53a84fd7751095864a5310cc7d": {
+        "src": "自适应",
+        "dst": "selvtilpasning"
+    },
+    "a7699ba73144aad544eb9ac49f82749d": {
+        "src": "上传成功",
+        "dst": "Upload vellykket"
+    },
+    "045677d08976ba2c328e374549f38e54": {
+        "src": "服务器列表",
+        "dst": "Serverliste"
+    },
+    "0dfbe902b83113107983280ac8836a10": {
+        "src": "常用命令",
+        "dst": "Almindelige kommandoer"
+    },
+    "ddf7d2a5ceecd491f3a76950bb31961d": {
+        "src": "命令",
+        "dst": "kommando"
+    },
+    "54adb5ae4a15bca6a11ecd95581a072f": {
+        "src": "立即执行",
+        "dst": "Udfør straks"
+    },
+    "54fe193147c755bf60b624261fb51f0e": {
+        "src": "粘贴到编辑窗口",
+        "dst": "Indsæt i redigeringsvinduet"
+    },
+    "c566ca59602c7c5c0d3fe5e18ade447d": {
+        "src": "服务器",
+        "dst": "Serveren"
+    },
+    "13900bfce3b3e6e0e047c08ecbac8e4b": {
+        "src": "全部分组",
+        "dst": "Gruppér alle"
+    },
+    "4916a6b85bd031be44a6d3a082ffad1d": {
+        "src": "手动排序",
+        "dst": "Manuel sortering"
+    },
+    "876f0ccb22eeae71645981732442e899": {
+        "src": "退出排序",
+        "dst": "Afslut sortering"
+    },
+    "7abcce9347768ccaa2c19f4c4588d471": {
+        "src": "请输入服务器IP/名称",
+        "dst": "Indtast serverens IP/ navn"
+    },
+    "6a96e7fcf899a004da8ff3c29c0b62c2": {
+        "src": "删除服务器",
+        "dst": "Slet server"
+    },
+    "9aff62415394ae8a2c63bc821f03c4e6": {
+        "src": "监控",
+        "dst": "monitor"
+    },
+    "c1f54d575ffc0edc8c7714abf105b729": {
+        "src": "录像审计",
+        "dst": "Videorevision"
+    },
+    "8780e6b3d18e5b3d95c90fea273195ce": {
+        "src": "文件管理",
+        "dst": "filhåndtering"
+    },
+    "f26ef914245883c80f181c4aade2ed04": {
+        "src": "下载",
+        "dst": "download"
+    },
+    "c8ce4b36cb6a0ff587974a738f32facf": {
+        "src": "重命名",
+        "dst": "omdøb"
+    },
+    "ba6e91fa9e0438e1ab780add0f6f5203": {
+        "src": "权限",
+        "dst": "jurisdiktion"
+    },
+    "f3a485dffd36dc3bcaa3c70e08f704e5": {
+        "src": "新建文件夹",
+        "dst": "Ny mappe"
+    },
+    "e48a715738f009af3b133b2567ed4dae": {
+        "src": "新建文件",
+        "dst": "ny fil"
+    },
+    "f4130cae7d9d0026fd681c2aae22aa12": {
+        "src": "复制路径",
+        "dst": "Kopiér sti"
+    },
+    "24d67862f87f439db7ca957aecb77cce": {
+        "src": "属性",
+        "dst": "attribut"
+    },
+    "a6fc9e3ae6f4333a43ffc1774a0b4347": {
+        "src": "上传文件",
+        "dst": "Upload filer"
+    },
+    "21f28379a69eb346c3a29df92454e2b7": {
+        "src": "文件大小超过3M，无法在线编辑！",
+        "dst": "Filstørrelsen overstiger 3M og kan ikke redigeres online!"
+    },
+    "1f4c1042ed0080cf3526644f92248ddc": {
+        "src": "文件夹",
+        "dst": "mappe"
+    },
+    "2a0c4740f156a9536049f4610da25400": {
+        "src": "文件",
+        "dst": "fil"
+    },
+    "51b458aa940215add136a05f9ee310f1": {
+        "src": "风险操作，删除的【{}】{}将彻底删除，无法恢复，是否继续？",
+        "dst": "Risikooperation: Den slettede 【{} 】{} slettes fuldstændigt og kan ikke gendannes. Vil du fortsætte?"
+    },
+    "212803e6c4bf40b6dd9789f24a46b6a3": {
+        "src": "删除【{}】",
+        "dst": " [{}]"
+    },
+    "c2081c160feb35cb98684e0f4ed8f4a1": {
+        "src": "正在获取列表...",
+        "dst": "Henter liste"
+    },
+    "29139c2a1aa9b398f37906a4e4ed8451": {
+        "src": "文件名",
+        "dst": "filnavn"
+    },
+    "58f966670529f4753fb3c5a0647606be": {
+        "src": "大小",
+        "dst": "størrelse"
+    },
+    "d7150aa4ad7c1204b3727c43e9576474": {
+        "src": "权限/所有者",
+        "dst": "Tilladelse/ejer"
+    },
+    "5e036a6eb9cc533480190ded0c9a7eaf": {
+        "src": "最后修改日期",
+        "dst": "Sidst ændret dato"
+    },
+    "1066a0ce49475bf6a9946bbbfda5a20f": {
+        "src": "松开鼠标上传文件",
+        "dst": "Slip musen og upload filen"
+    },
+    "5b2c1fbd340ab3895299f728e4f38f33": {
+        "src": "请先打开一个终端",
+        "dst": "Åbn venligst en terminal først"
+    },
+    "c26b28199f2be10f4e29c14e3278655a": {
+        "src": "上传{}",
+        "dst": "Upload {}"
+    },
+    "d5a73b0c7f2f052a5da435ca7072362c": {
+        "src": "上传",
+        "dst": "upload"
+    },
+    "94a5aae8bb8eed952b08fc088d7dbd03": {
+        "src": "只能上传一个文件",
+        "dst": "Kun én fil kan uploades"
+    },
+    "bc195b3a63087ea3013526bf73c14e8a": {
+        "src": "[{}] - {}属性",
+        "dst": "[{}] - {} attributter"
+    },
+    "ffc7ed1cd5288ff735a3c4a059125354": {
+        "src": "添加时间",
+        "dst": "Tilføj tid"
+    },
+    "1303e638b5ff6d3c4d78b76be2d19756": {
+        "src": "修改时间",
+        "dst": "Ændringstid"
+    },
+    "e72a0ba45ad7a6ddeebd3f76c61a89be": {
+        "src": "用户组",
+        "dst": "Brugergruppe"
+    },
+    "c1637b7e47da505ec7b71220bec64778": {
+        "src": "新建{}",
+        "dst": "Ny"
+    },
+    "df09fff77b4bb5a0b77d3108072fccb4": {
+        "src": "名称不能为空",
+        "dst": "Navnet kan ikke være tomt"
+    },
+    "f518dbaf499cbf6e030f5de43002e5aa": {
+        "src": "在线编辑器[{}]",
+        "dst": "Online editor [{}]"
+    },
+    "6fb14a1e3a93e88c6da00adc4d4618ec": {
+        "src": "获取文件内容...",
+        "dst": "Hent filindhold"
+    },
+    "a3bc626f4901ee4ae3a324560dabb4e6": {
+        "src": "保存文件...",
+        "dst": "Gem fil"
+    },
+    "3b108349b93f7c8c4e2346f8d48c092a": {
+        "src": "保存成功",
+        "dst": "Gemt med succes"
+    },
+    "b05345caad807fb8d27f6f0502ee6001": {
+        "src": "所有者",
+        "dst": "ejer"
+    },
+    "0cd5db00ba2a77b02d1ced5cbf3f9ce8": {
+        "src": "读取",
+        "dst": "læse"
+    },
+    "358e76aeaebfa21902ccefa6c2f7e215": {
+        "src": "写入",
+        "dst": "skrive ind"
+    },
+    "1a6aa24e762cf41ecbb3ee58d17d5024": {
+        "src": "执行",
+        "dst": "gennemføre"
+    },
+    "9be5920fd5e9b609df46bf5721c24624": {
+        "src": "公共",
+        "dst": "offentligt"
+    },
+    "5f274e8155344625e960cf4340264ae2": {
+        "src": "权限，所有者",
+        "dst": "Tilladelse, ejer"
+    },
+    "690df1d1b277120c1cfa06500f8df2e5": {
+        "src": "持续运行",
+        "dst": "Kontinuerlig drift"
+    },
+    "819706fa2b5097f2f53765d9e291f9cd": {
+        "src": "{}天",
+        "dst": "{} dage"
+    },
+    "7a3f8513e0c78766f1337558ef3885e0": {
+        "src": "进程数",
+        "dst": "Antal processer"
+    },
+    "fe32def462a3a12f3c6e7c25e4ad72c8": {
+        "src": "活跃",
+        "dst": "aktiv"
+    },
+    "8cf9a49511c5d639433ebc4cf43ab681": {
+        "src": "网络IO",
+        "dst": "Netværk IO"
+    },
+    "03f38597a66d680059d67b9822334e33": {
+        "src": "速度",
+        "dst": "hastighed"
+    },
+    "71f3f710975907863ac090700c9d47fc": {
+        "src": "已用流量",
+        "dst": "Brugt trafik"
+    },
+    "4f645bfd9be31b626fe71b2313ae21d1": {
+        "src": "磁盘IO",
+        "dst": "Disk IO"
+    },
+    "75769d1ac812a1d9556e5a79416a1def": {
+        "src": "读",
+        "dst": "læse"
+    },
+    "4d7dc6c5f886053abc31cee1376fb5c0": {
+        "src": "写",
+        "dst": "skriv"
+    },
+    "db732ecb48b1a9cfb3ebea9fcfbf0980": {
+        "src": "延迟",
+        "dst": "forsinkelse"
+    },
+    "ae26f7a58a4e7f2b261429f2c2b8a390": {
+        "src": "iops",
+        "dst": "iops"
+    },
+    "0d236391b09ab632e2468d565357c1a3": {
+        "src": "录像开关",
+        "dst": "Videoskift"
+    },
+    "9db7a84fcd85195b36d7df987fde5d0b": {
+        "src": "已开启",
+        "dst": "Åbnet"
+    },
+    "ea4a363d8fa51de6bd0fa0dac4571313": {
+        "src": "未开启",
+        "dst": "Ikke aktiveret"
+    },
+    "4ff1e74e43a3586339251494117185ad": {
+        "src": "日期",
+        "dst": "dato"
+    },
+    "b85270cd3c06d8eb635eadcffbb10119": {
+        "src": "播放",
+        "dst": "afspil"
+    },
+    "1535fcfa4cb8e4d467127154977e9788": {
+        "src": "发送",
+        "dst": "send ud"
+    },
+    "b20fc52b828bae58dd1cbcc4835e2381": {
+        "src": "未检测到可上传路径",
+        "dst": "Ingen upload sti fundet"
+    },
+    "11fad14ad445005a3a5f662f34067f29": {
+        "src": "仅允许上传一个文件",
+        "dst": "Kun én fil må uploades"
+    },
+    "b9c1a2d18c36490b0087d0a93a1ccc77": {
+        "src": "请选择要发送到服务器的文件",
+        "dst": "Vælg den fil der skal sendes til serveren"
+    },
+    "b24be5a63f383c42ba0b1e29e7d66b28": {
+        "src": "请选择保存目录",
+        "dst": "Vælg gem mappen"
+    },
+    "160b0eeb0f14b1c9d835dacf7a78f976": {
+        "src": "最多可管理10台免费面板，付费面板无限制",
+        "dst": "Op til 10 gratis paneler kan administreres uden begrænsning på betalte paneler"
+    },
+    "c632c75326a20ef0e8cbfe9c76c17e35": {
+        "src": "是否将[{}]从列表中删除?",
+        "dst": "Vil du fjerne [{}] fra listen?"
+    },
+    "ee5804ee2e20805e84c7add591280a7f": {
+        "src": "编辑 {}",
+        "dst": "Redigér {}"
+    },
+    "f825cefb01b39b4d6882c907a1207d2e": {
+        "src": "例：https://192.168.1.2:8888",
+        "dst": "Eksempel: https://192.168.1.2:8888"
+    },
+    "d1ca4387a20b304ebeb7e9134acbb637": {
+        "src": "URL格式不正确，例：https://192.168.1.2:8888",
+        "dst": "URL-formatet er forkert, for eksempel: https://192.168.1.2:8888"
+    },
+    "81acbaaec25b7a39d1802ddb2064dcc6": {
+        "src": "请输入账户",
+        "dst": "Indtast venligst din konto"
+    },
+    "9970ad07468267e2f309f1467c75bb80": {
+        "src": "主题",
+        "dst": "tema"
+    },
+    "9847e20073c0e36b82fd68ea8e65fc90": {
+        "src": "编辑 [{}]",
+        "dst": "Redigér [{}]"
+    },
+    "9c7207ae280dbae3ce3993bd9bae96a8": {
+        "src": "风险操作，删除的[{}]{}将彻底删除，无法恢复，是否继续？",
+        "dst": "Risikooperation: Den slettede [{}] {} slettes fuldstændigt og kan ikke gendannes. Vil du fortsætte?"
+    },
+    "af5037f770302a82a1d43df85977b054": {
+        "src": "删除[{}]",
+        "dst": " [{}]"
+    },
+    "e27e99d955ce761aaa716efd92e3a435": {
+        "src": "在线编辑器 [{}]",
+        "dst": "Online editor [{}]"
+    },
+    "4dd396ae4bd9b7816e89c9aca9505b6c": {
+        "src": "{}日",
+        "dst": "{} Dag"
+    },
+    "2e77cc1f972f30835dc7006dacdfe0a8": {
+        "src": "所有的",
+        "dst": "be-all"
+    },
+    "8a8b895fcc504b75f45b6c8e4d15cc4d": {
+        "src": "系统",
+        "dst": "system"
+    },
+    "ec2ecfe8bfa9b62def379caa33e8e274": {
+        "src": "自动录像",
+        "dst": "Automatisk registrering"
+    },
+    "01a7b9010a787c83bd435cab8d6298e5": {
+        "src": "设置面板API【IP白名单】，输入您PC的静态公网IP，如果没有静态IP，请填(*)",
+        "dst": "Indstil panel API [IP Whitelist], indtast din pc's statiske offentlige IP. Hvis der ikke er statisk IP, skal du udfylde (*)"
+    },
+    "5229a8165fdb721bea85a051401b1cf2": {
+        "src": "隐藏IP",
+        "dst": "Skjul IP"
+    },
+    "5a158ec121164c657fb0bbccdf24abe6": {
+        "src": "显示IP",
+        "dst": "Vis IP"
+    },
+    "4f5537dddf89262e7e47117948f8f317": {
+        "src": "磁盘",
+        "dst": "disk"
+    }
+}

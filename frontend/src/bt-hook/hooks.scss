@@ -1,0 +1,89 @@
+// 表格工具条样式
+.bt-table-tools {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.bt-table-filter {
+  .n-base-select-menu__empty {
+    padding: 12px;
+  }
+}
+
+// 综合表格（表格+工具+分页+布局）的样式
+.bt-operation-table-wrapper {
+  --bg-operation-table-margin-bottom: 20px;
+  margin-bottom: var(--bg-operation-table-margin-bottom);
+
+  .bt-operation-table-header {
+    margin-bottom: var(--bg-operation-table-margin-bottom);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bt-operation-table {
+    margin-bottom: var(--bg-operation-table-margin-bottom);
+  }
+
+  .bt-operation-table-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// 全局加载样式
+.loading-mask {
+  position: fixed;
+  z-index: 999999999999;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  .loading-content {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// message提示框样式
+.bt-message {
+  z-index: 10000;
+  min-width: 200px;
+  padding: 10px 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: 0.3s;
+  transform: scale(0);
+  opacity: 0;
+
+  .message-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+  }
+}
+
+.message-show {
+  transform: scale(1);
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.wait-mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}

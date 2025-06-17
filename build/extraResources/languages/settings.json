@@ -1,0 +1,212 @@
+ [
+    {
+        "name": "zh",
+        "google": "zh-cn",
+        "title": "简体中文",
+        "cn": "简体中文"
+    },
+    {
+        "name": "cht",
+        "google": "zh-tw",
+        "title": "繁體中文",
+        "cn": "繁體中文"
+    },
+    {
+        "name": "en",
+        "google": "en",
+        "title": "English",
+        "cn": "英语"
+    },
+    {
+        "name": "de",
+        "google": "de",
+        "title": "Deutsch",
+        "cn": "德语"
+    },
+    {
+        "name": "jp",
+        "google": "ja",
+        "title": "日本語",
+        "cn": "日语"
+    },
+    {
+        "name": "fra",
+        "google": "fr",
+        "title": "Français",
+        "cn": "法语"
+    },
+    {
+        "name": "spa",
+        "google": "es",
+        "title": "Español",
+        "cn": "西班牙语"
+    },
+    {
+        "name":"kor",
+        "google":"ko",
+        "title":"한국어",
+        "cn":"韩语"
+    },
+    {
+        "name":"ru",
+        "google":"ru",
+        "title":"Русский",
+        "cn":"俄语"
+    },
+    {
+        "name":"th",
+        "google":"th",
+        "title":"ไทย",
+        "cn":"泰语"
+    },
+    {
+        "name":"pt",
+        "google":"pt",
+        "title":"Português",
+        "cn":"葡萄牙语"
+    },
+    {
+        "name":"vie",
+        "google":"vi",
+        "title":"Tiếng Việt",
+        "cn":"越南语"
+    },
+    {
+        "name":"it",
+        "google":"it",
+        "title":"Italiano",
+        "cn":"意大利语"
+    },
+    {
+        "name":"ara",
+        "google":"ar",
+        "title":"العربية",
+        "cn":"阿拉伯语"
+    },
+    {
+        "name":"pl",
+        "google":"pl",
+        "title":"Polski",
+        "cn":"波兰语"
+    },
+    {
+        "name":"nl",
+        "google":"nl",
+        "title":"Nederlands",
+        "cn":"荷兰语"
+    },
+    {
+        "name":"swe",
+        "google":"sv",
+        "title":"Svenska",
+        "cn":"瑞典语"
+    },
+    {
+        "name":"dan",
+        "google":"da",
+        "title":"Dansk",
+        "cn":"丹麦语"
+    },
+    {
+        "name":"fin",
+        "google":"fi",
+        "title":"Suomi",
+        "cn":"芬兰语"
+    },
+    {
+        "name":"cs",
+        "google":"cs",
+        "title":"Čeština",
+        "cn":"捷克语"
+    },
+    {
+        "name":"hu",
+        "google":"hu",
+        "title":"Magyar",
+        "cn":"匈牙利语"
+    },
+    {
+        "name":"el",
+        "google":"el",
+        "title":"Ελληνικά",
+        "cn":"希腊语"
+    },
+    {
+        "name":"rom",
+        "google":"ro",
+        "title":"Română",
+        "cn":"罗马尼亚语"
+    },
+    {
+        "name":"bul",
+        "google":"bg",
+        "title":"Български",
+        "cn":"保加利亚语"
+    },
+    {
+        "name":"est",
+        "google":"et",
+        "title":"Eesti",
+        "cn":"爱沙尼亚语"
+    },
+    {
+        "name":"lit",
+        "google":"lt",
+        "title":"Lietuvių",
+        "cn":"立陶宛语"
+    },
+    {
+        "name":"hrv",
+        "google":"hr",
+        "title":"Hrvatski",
+        "cn":"克罗地亚语"
+    },
+    {
+        "name":"ukr",
+        "google":"uk",
+        "title":"Українська",
+        "cn":"乌克兰语"
+    },
+    {
+        "name":"hi",
+        "google":"hi",
+        "title":"हिन्दी",
+        "cn":"印地语"
+    },
+    {
+        "name":"id",
+        "google":"id",
+        "title":"Bahasa Indonesia",
+        "cn":"印尼语"
+    },
+    {
+        "name":"may",
+        "google":"ms",
+        "title":"Bahasa Melayu",
+        "cn":"马来语"
+    },
+    {
+        "name":"per",
+        "google":"fa",
+        "title":"فارسی",
+        "cn":"波斯语"
+    },
+    {
+        "name":"tr",
+        "google":"tr",
+        "title":"Türkçe",
+        "cn":"土耳其语"
+    },
+    {
+        "name":"bur",
+        "google":"my",
+        "title":"မြန်မာ",
+        "cn":"缅甸语"
+    },
+    {
+        "name":"fil",
+        "google":"tl",
+        "title":"Filipino",
+        "cn":"菲律宾语"
+    }
+]

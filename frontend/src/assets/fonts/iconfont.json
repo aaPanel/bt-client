@@ -1,0 +1,86 @@
+{
+  "id": "4058702",
+  "name": "vue3-vite-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577320",
+      "name": "选择",
+      "font_class": "xuanze",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "1727523",
+      "name": "304错误、关闭、取消",
+      "font_class": "cuowuguanbiquxiao",
+      "unicode": "e8e7",
+      "unicode_decimal": 59623
+    },
+    {
+      "icon_id": "26135778",
+      "name": "锁定",
+      "font_class": "suoding",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "11641870",
+      "name": "刷新-line",
+      "font_class": "shuaxin-line",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "8474177",
+      "name": "x",
+      "font_class": "x",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "1304875",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "16322772",
+      "name": "放大",
+      "font_class": "fangda",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "1304886",
+      "name": "收起菜单",
+      "font_class": "shouqicaidan",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1304894",
+      "name": "展开菜单",
+      "font_class": "zhankaicaidan",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1727563",
+      "name": "327全屏",
+      "font_class": "quanping",
+      "unicode": "e8fa",
+      "unicode_decimal": 59642
+    },
+    {
+      "icon_id": "1727566",
+      "name": "328退出全屏",
+      "font_class": "tuichuquanping",
+      "unicode": "e8fb",
+      "unicode_decimal": 59643
+    }
+  ]
+}

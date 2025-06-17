@@ -1,0 +1,54 @@
+// 修改按钮组件的样式
+.el-button {
+	// padding: 0.4rem 1.2rem;
+	// height: 2.8rem;
+	// border-radius: 0;
+	&.el-button--danger {
+		font-weight: 500;
+		background-color: #ef0808; // 修改危险按钮的背景色为红色
+		border-color: #ef0808;
+		color: #fff;
+		&:hover {
+			background-color: #f23939;
+			border-color: #f23939;
+		}
+		&:active {
+			background-color: #d70707;
+			border-color: #d70707;
+		}
+		&:disabled {
+			color: #fff;
+			background-color: #f78484;
+			border-color: #f78484;
+		}
+	}
+
+	&.el-button--warning {
+		font-weight: 500;
+		background-color: #cbcbcb; // 修改取消按钮的背景色为红色
+		border-color: #cbcbcb;
+		color: #fff;
+		&:hover {
+			background-color: #ef0808;
+			border-color: #ef0808;
+		}
+		&:active {
+			background-color: #f23939;
+			border-color: #f23939;
+		}
+		&:disabled {
+			color: #a8abb2;
+			background-color: #fff;
+			border-color: #e4e7ed;
+		}
+	}
+	&--large {
+		font-size: 1.4rem;
+	}
+	&--small {
+		padding: 5px;
+	}
+}
+.el-button:focus-visible {
+	outline: 0 !important;
+}

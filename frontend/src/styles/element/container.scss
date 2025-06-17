@@ -1,0 +1,13 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+
+/* 容器 */
+.el-container {
+	.el-aside {
+		overflow: hidden;
+	}
+	.el-main,
+	.el-footer {
+		padding: 0;
+	}
+}

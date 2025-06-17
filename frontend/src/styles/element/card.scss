@@ -1,0 +1,17 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+
+/* 卡片 */
+.el-card {
+	overflow: initial !important;
+	& &__header {
+		display: flex;
+		align-items: center;
+		min-height: 4rem;
+		padding: 0 0.6rem;
+		border-bottom: 1px solid $border-color;
+		font-size: 1.4rem;
+		font-weight: 500;
+		color: $color-text-regular;
+	}
+}

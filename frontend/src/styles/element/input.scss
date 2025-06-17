@@ -1,0 +1,34 @@
+.el-input {
+	&--small {
+		input.el-input__inner {
+			height: 2.6rem;
+			line-height: 2.6rem;
+			font-size: 1.2rem;
+		}
+		&.el-input.is-disabled .el-input__inner {
+			color: #555;
+		}
+		textarea.el-textarea__inner {
+			padding: 1rem;
+			font-size: 1.2rem;
+		}
+	}
+	& > &.__inner {
+		box-shadow: none !important;
+	}
+	&.is-disabled {
+		.el-input__inner {
+			border-color: #dddddd !important;
+		}
+	}
+	&-number {
+		.is-controls-right[class*='small'] [class*='increase'],
+		.is-controls-right[class*='small'] [class*='decrease'] {
+			--el-input-number-controls-height: 15px;
+		}
+	}
+}
+.el-input__wrapper {
+	flex-grow: 0;
+	width: 100%;
+}

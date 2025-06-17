@@ -1,0 +1,28 @@
+// 选择框
+.el-checkbox {
+	color: #333;
+	.el-checkbox__input.is-checked + .el-checkbox__label {
+		color: inherit;
+	}
+	.el-checkbox__input.is-disabled + span.el-checkbox__label {
+		color: inherit;
+	}
+}
+
+.el-checkbox .el-checkbox__inner {
+	width: 1.6rem;
+	height: 1.6rem;
+
+	&.is-checked .el-checkbox__inner::after,
+	&::after {
+		border-width: 1.4px;
+		height: 8px;
+		width: 4px;
+		top: 2px;
+		left: 4.5px;
+	}
+}
+.el-checkbox .el-checkbox__input.is-indeterminate .el-checkbox__inner::before {
+	top: 6px;
+	height: 3px;
+}

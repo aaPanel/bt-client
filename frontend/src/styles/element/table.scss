@@ -1,0 +1,26 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+.el-table {
+	// font-size: 1.2rem !important;
+	& &__header {
+		// tr {
+		// 	background-color: $table-hover-bg-color;
+		// }
+		th.is-leaf {
+			// height: 2.8rem;
+			// padding: 0;
+			// background: none !important;
+			// border-color: #dddddd;
+			font-weight: normal;
+			color: $color-text-regular;
+		}
+	}
+	&.table-style-one {
+		font-size: 1.2rem !important;
+		.el-table__header {
+			tr > th {
+				background-color: $table-hover-bg-color;
+			}
+		}
+	}
+}

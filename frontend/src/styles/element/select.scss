@@ -1,0 +1,27 @@
+// 选择器
+.el-select-dropdown {
+	& &__item {
+		height: 3.2rem;
+		line-height: 3.2rem;
+		font-size: 1.2rem;
+	}
+}
+
+.el-select .el-input--small input.el-input__inner {
+	padding-right: 2.6rem;
+}
+
+.el-select__wrapper {
+	font-size: inherit !important;
+}
+.el-select__placeholder {
+	font-size: 12px;
+}
+.el-select--small .el-select__wrapper {
+	height: 2.6rem;
+	line-height: 2.6rem;
+}
+
+.el-select-dropdown .el-select-dropdown__footer {
+	padding: 0 !important;
+}

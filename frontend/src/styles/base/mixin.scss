@@ -1,0 +1,36 @@
+// 宽度和高度
+@mixin area($width, $height, $display: false) {
+	@if $display {
+		display: $display;
+	}
+	width: $width;
+	height: $height;
+} // 圆
+@mixin circle($size, $display: false) {
+	@include area($size, $size, $display);
+	border-radius: 50%;
+}
+
+// 背景图片
+@mixin bg-image($url, $size: contain, $position: center) {
+	background-image: $url;
+	@if $size == null {
+		$size: contain;
+	}
+	background-size: $size $size;
+	background-position: $position;
+	background-repeat: no-repeat;
+}
+
+// login 背景
+@mixin logo-green() {
+	content: '';
+	display: block;
+	width: 1.4rem;
+	height: 2rem;
+	opacity: 0.8;
+	background-image: url('/src/assets/images/logo-green.svg');
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}

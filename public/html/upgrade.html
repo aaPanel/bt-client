@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>升级检测</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+        max-width: 465px;
+        padding: 20px;
+        background-color: #fff;
+    }
+    h1 {
+        font-size: 24px;
+        color: #333;
+    }
+    p {
+        font-size: 16px;
+        color: #666;
+    }
+    pre {
+        font-size: 14px;
+        color: #666;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    #version-info {
+        margin-top: 20px;
+    }
+    #version-info div {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    #version-info div span {
+        font-size: 16px;
+        color: #666;
+    }
+    #version-info div a {
+        font-size: 16px;
+        color: #007bff;
+        text-decoration: none;
+    }
+    #version-info div a:hover {
+        text-decoration: underline;
+    }
+    #release-date span {
+        font-size: 16px;
+        color: #666;
+    }
+
+    
+
+    .btns {
+        margin-top: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    button:active {
+        background-color: #004286;
+    }
+    button:focus {
+        outline: none;
+    }
+    button#cancel {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    button#cancel:hover {
+        background-color: #e0e0e0;
+    }
+    button#cancel:active {
+        background-color: #d0d0d0;
+    }
+    button#cancel:focus {
+        outline: none;
+    }
+    button#update {
+        background-color: #28a745;
+    }
+    button#update:hover {
+        background-color: #218838;
+    }
+    button#update:active {
+        background-color: #1e7e34;
+    }
+    button#update:focus {
+        outline: none;
+    }
+    button#ignore {
+        background-color: #dc3545;
+    }
+    button#ignore:hover {
+        background-color: #c82333;
+    }
+    button#ignore:active {
+        background-color: #bd2130;
+    }
+    button#ignore:focus {
+        outline: none;
+    }
+
+    /*** 按钮居右 ***/
+    .btns {
+        text-align: right;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <!-- 检测到更新 -->
+        <h1>检测到新版本</h1>
+        <div id="version-info">
+            <!-- 同一行显示：当前版本，最新版本，发布时间 -->
+            <div id="current-version"><span>当前版本：<a></a></span></div>
+            <div id="latest-version"><span>最新版本：<a></a></span></div>
+            <div id="release-date">发布时间：<span ></span></div>
+        </div>
+        <p>更新内容：</p>
+        <pre id="update-content"></pre>
+        <!-- 操作按钮，忽略此版本，取消，立即更新 -->
+        <div class="btns">
+            <button id="ignore">忽略此版本</button>
+            <button id="cancel">取消</button>
+            <button id="update">立即更新</button>
+        </div>
+    </div>
+</body>
+</html>

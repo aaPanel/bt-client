@@ -1,0 +1,66 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+
+@keyframes mymove {
+	0% {
+		transform: translateX(-50%) translateY(-50%) scale(0.6);
+		opacity: 0.6;
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) scale(1);
+		opacity: 1;
+	}
+}
+
+/* 消息框 */
+.el-message {
+	top: 50% !important;
+	left: 50%;
+	align-items: start;
+	min-width: 160px;
+	position: absolute;
+	padding: 16px 15px;
+	border-radius: 4px;
+	border: 0 solid $message-border-color;
+	background-color: $white-color;
+	transform: translateX(-50%) translateY(-50%) scale(1);
+	box-shadow: 0px 0px 10px 1px #55555580;
+	transition:
+		scale 0.1s,
+		opacity 0.1s;
+	transition: none;
+	display: flex;
+	animation: mymove 200ms;
+	&__icon {
+		font-size: 3rem !important;
+		padding: 0;
+		svg {
+			width: 100%;
+			height: 30px;
+			fill: $white-color;
+		}
+	}
+	&-icon {
+		&--success {
+			color: $bt-color-primary;
+		}
+		&--warning {
+			color: $bt-color-warning;
+		}
+		&--error {
+			color: $bt-color-danger;
+		}
+	}
+	&__content {
+		flex: 1;
+		margin: 0;
+		line-height: 30px;
+		color: $text-color !important;
+	}
+}
+.el-message .el-message-icon--success {
+	color: #67c23a;
+}
+.el-message .el-message-icon--error {
+	--el-message-text-color: #f56c6c;
+}

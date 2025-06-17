@@ -1,0 +1,69 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+
+.el-loading-mask.is-fullscreen {
+	@apply flex justify-center items-center fixed top-0 left-0 right-0 bottom-0;
+	.el-loading-spinner {
+		@apply flex items-center;
+		width: auto;
+		min-width: 18rem;
+		max-width: 70rem;
+		padding: 1.6rem 2.5rem;
+		background-color: #fff;
+		border: 1px solid #d3d4d3;
+		border-radius: 3px;
+		word-break: break-all;
+		.circular {
+			width: 32px !important;
+			height: 32px !important;
+			margin-right: 1.2rem;
+			color: #555;
+			animation: none;
+			position: relative;
+			&::after {
+				position: absolute;
+				content: '';
+				display: block;
+				width: 32px;
+				height: 32px;
+				top: 0;
+				left: 0;
+				border: 1.5px solid #20a53a;
+				opacity: 0.8;
+				border-top-color: transparent;
+				border-radius: 100%;
+				animation: circle infinite 0.75s linear;
+			}
+			&::before {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				opacity: 0.8;
+				transform: translate(-50%, -50%);
+				@include logo-green;
+			}
+		}
+		.el-loading-text {
+			margin: 0;
+			line-height: 2.4rem;
+			text-align: left;
+			font-size: 1.4rem;
+			color: #555;
+		}
+	}
+}
+
+.el-loading-mask .el-loading-spinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes circle {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

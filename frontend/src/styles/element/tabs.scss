@@ -1,0 +1,95 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+
+@mixin tabs-item-top() {
+	background: none;
+	padding: 0 2.2rem;
+	// font-size: 1.4rem;
+	& + .el-tabs__item {
+		margin-left: 0.4rem;
+	}
+	&:hover {
+		background-color: #1a73e808;
+	}
+	&::after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		display: block;
+		width: 2rem;
+		height: 0.2rem;
+		margin-left: -1rem;
+		transition: all 0.3s;
+	}
+	&.is-active {
+		color: $bt-color-primary;
+		background-color: #1a73e810;
+		&::after {
+			background: $bt-color-primary;
+		}
+	}
+}
+
+/* tabs */
+.el-tabs {
+	& &__item {
+		&:focus.is-active.is-focus:not(:active) {
+			box-shadow: none;
+			border-radius: inherit;
+		}
+	}
+	.el-tabs__header {
+		height: 2.8rem;
+		.el-tabs__item {
+			height: 2.8rem !important;
+			line-height: 2.8rem;
+		}
+	}
+	.el-tabs__content {
+		padding: 0.4rem !important;
+	}
+	&.menu-vertical {
+		height: 100%;
+		.el-tabs__header-vertical {
+			margin: 0 !important;
+			background-color: $tabs-bg-color;
+		}
+		.el-tabs__active-bar {
+			display: none;
+		}
+		.el-tabs__item {
+			writing-mode: vertical-lr; /*从左向右 从右向左是 writing-mode: vertical-rl;*/
+			// writing-mode: tb-lr; /*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+			height: auto !important;
+			line-height: inherit !important;
+			padding: 8px 5px;
+		}
+		.el-tabs__nav-wrap.is-right::after,
+		.el-tabs__nav-wrap.is-left::after {
+			display: none;
+		}
+		.el-tabs__content {
+			background-color: $body-bg-color;
+			height: 100%;
+			padding: 0 !important;
+			.el-tab-pane {
+				height: 100%;
+			}
+		}
+		&.el-tabs--right {
+			.el-tabs__content {
+				.el-tab-pane {
+					border-left: 1px solid $border-color;
+				}
+			}
+		}
+		&.el-tabs--left {
+			.el-tabs__content {
+				.el-tab-pane {
+					border-right: 1px solid $border-color;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+@use '../base/variable.scss' as *;
+@use '../base/mixin.scss' as *;
+
+// 表单
+.el-form {
+	& &-item {
+		display: flex;
+		&::before,
+		&::after {
+			display: none;
+		}
+		&__label {
+			margin-right: 2rem;
+			padding-right: 0;
+		}
+		&__content {
+			flex: 1;
+			margin-left: 0 !important;
+		}
+		&--small {
+			&.el-form-item {
+				margin-bottom: 0;
+				& + .el-form-item {
+					margin-top: 1.6rem;
+				}
+			}
+			& .el-form-item__label {
+				min-width: 8rem;
+				line-height: 3.2rem;
+				font-size: 1.2rem;
+				color: $color-text-regular;
+			}
+			& .el-form-item__content {
+				.el-input {
+					font-size: 1.2rem;
+					.el-input__inner {
+						height: 3.2rem;
+						// border-radius: 0.2rem;
+					}
+				}
+				.el-form-item__error {
+					font-size: 1rem;
+				}
+				.el-textarea {
+					.el-textarea__inner {
+						border-radius: 0.2rem;
+					}
+				}
+			}
+		}
+	}
+	.el-form-item__label {
+		min-width: 8rem;
+		line-height: 3.2rem;
+		// 	font-size: 1.2rem;
+		color: $color-text-regular;
+	}
+}

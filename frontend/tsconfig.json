@@ -1,0 +1,34 @@
+{
+	"include": ["src/env.d.ts", "src/**/*", "src/**/*.vue", "uno.config.ts", "uno.config.ts"],
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"jsx": "preserve",
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"composite": true,
+		// 以严格模式解析
+		"strict": true,
+		"baseUrl": "./",
+		// 忽略所有的声明文件 (*.d.ts) 的类型检查
+		"skipLibCheck": true,
+		"paths": {
+			"@/*": ["src/*"],
+			"@api/*": ["src/api/*"],
+			"@views/*": ["src/views/*"],
+			"@layout/*": ["src/layout/*"],
+			"@locales/*": ["src/locales/*"],
+			"@store/*": ["src/store/*"],
+			"@utils/*": ["src/utils/*"],
+			"@router/*": ["src/router/*"],
+			"@assets/*": ["src/assets/*"],
+			"@plugins/*": ["src/plugins/*"],
+			"*electron.router.js": ["./electron.router.js"]
+		}
+	},
+	// ts 排除的文件
+	"exclude": ["node_modules"]
+}

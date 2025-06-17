@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+	<head>
+		<title>下载管理</title>
+	</head>
+	<body>
+		<!-- 下载列表 -->
+		<div class="down-manage-view"></div>
+	</body>
+	<script>
+		const Renderer = (window.require && window.require('electron')) || window.electron || {};
+		const ipc = Renderer.ipcRenderer || undefined;
+
+		function send(route, data, callback) {
+			let channel = route;
+			ipc.removeAllListeners(channel);
+			ipc.on(channel, (event, result) => {
+				if (result && callback) {
+					callback(result);
+				}
+			});
+			let pdata = {
+				channel: channel,
+				data: data,
+			};
+
+			ipc.send(channel, pdata);
+		}
+
+		// 获取下载列表
+		function getDownList() {
+			let channel = 'controller.window.get_download_list';
+			let data = {};
+			send(channel, data, result => {
+				console.log(result);
+				renderDownView(result);
+			});
+		}
+
+		// 监听下载列表
+		function listenDownList() {
+			ipc.on('panel_download_list', (event, data) => {
+				console.log('panel_download_list', data);
+				renderDownView(data);
+			});
+		}
+
+		// 监听下载进度
+		function listenProgress() {
+			ipc.on('panel_download_progress', (event, data) => {
+				console.log('panel_download_progress', data);
+				renderDownView({ data: [data.data] }, true);
+			});
+		}
+
+		listenDownList();
+
+		listenProgress();
+
+		getDownList();
+		// 事件监听
+		downEventListener();
+		// 渲染下载列表
+		function renderDownView(data, isSole) {
+			let html = '';
+			data.data.forEach(item => {
+				// item.status = 1;
+				html += `<div class="down-item ${item.status === -1 ? 'down-canel' : ''}" down-id="${item.download_id}">
+					<div>
+						<svg t="1726294775611" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8162" width="24" height="24"><path d="M498.176 726.2208a31.9488 31.9488 0 0 0 45.1072 0.6144l263.0144-255.232a31.9488 31.9488 0 0 0-22.1184-54.8864l-143.36-0.512V104.6016h-235.52v310.7328L270.7456 414.72a31.8976 31.8976 0 0 0-22.9888 54.272z" fill="#a8c7fa" p-id="8163"></path><path d="M904.704 609.8944l-168.0384 0.6144-157.696 153.0368a83.3024 83.3024 0 0 1-117.4528-1.6896l-146.0224-149.8624-204.8 0.6656h-23.04v219.0336a109.568 109.568 0 0 0 109.4656 109.4144h644.1984a109.568 109.568 0 0 0 109.4656-109.4144v-221.7984z" fill="#a8c7fa" p-id="8164"></path></svg>
+					</div>
+					<div class="down-item-file">
+						<div class="down-item-title ${item.status === 2 ? 'is-success' : ''}" title="${item.filename}" path="${item.save_path}">${item.filename}</div>
+						<div class="${item.status !== 1 ? 'down-hide' : ''}">
+							<div class="down-item-speed">
+								<span>${bytesToSize(item.received_size)}/ ${bytesToSize(item.file_size)}，速度：${bytesToSize(item.speed)}</span>
+								<span>${item.progress}%</span>
+							</div>
+							<div class="down-item-progress">
+								<div class="down-item--progress-bg"></div>
+								<div class="down-item-progress-width" style="width: ${item.progress}%"></div>
+							</div>
+						</div>
+						<div class="down-canel-tips" style="display:${item.status === -1 ? 'block' : 'none'}">已取消</div>
+						<div class="down-canel-tips" style="display:${item.status === 2 ? 'block' : 'none'}">文件大小：${bytesToSize(item.file_size)}</div>
+					</div>
+					<div class="down-item-operation" style="">
+						<div class="close-down-task" title="取消下载" style="display:${item.status === 1 ? '' : 'none'}">
+							<svg t="1726736063207" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5305" width="32" height="32"><path d="M512 177.8c45.1 0 88.9 8.8 130.1 26.2 39.8 16.8 75.5 40.9 106.2 71.6 30.7 30.7 54.8 66.4 71.6 106.2 17.4 41.2 26.2 84.9 26.2 130.1s-8.8 88.9-26.2 130.1c-16.8 39.8-40.9 75.5-71.6 106.2-30.7 30.7-66.4 54.8-106.2 71.6C600.9 837.2 557.2 846 512 846s-88.9-8.8-130.1-26.2c-39.8-16.8-75.5-40.9-106.2-71.6-30.7-30.7-54.8-66.4-71.6-106.2-17.4-41.2-26.2-84.9-26.2-130.1s8.8-88.9 26.2-130.1c16.8-39.8 40.9-75.5 71.6-106.2s66.4-54.8 106.2-71.6c41.2-17.3 85-26.2 130.1-26.2m0-50c-212.2 0-384.2 172-384.2 384.2s172 384.2 384.2 384.2 384.2-172 384.2-384.2-172-384.2-384.2-384.2z" p-id="5306" fill="#999999"></path><path d="M688.1 622.3L568.6 509.1 684 402.3l-49.7-61.8-123.2 114-118.4-112.1-50.3 61.2 110.5 104.7-117 108.4 49.6 61.8 125-115.6 127.3 120.6z" p-id="5307" fill="#999999"></path></svg>
+						</div>
+						<div class="down-item--view" style="display:${item.status === 1 ? 'none' : ''}">
+							<div class="down-item-open ${item.status === -1 ? 'down-hide' : ''}"" title="打开所在目录" path="${item.save_path}"><svg t="1726295570893" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10441" data-spm-anchor-id="a313x.search_index.0.i6.394e3a81ZwONUn" width="22" height="22"><path d="M911.702378 241.62306 505.885745 241.62306l-51.287083-83.901899c-8.524141-14.069437-23.775496-21.897729-40.220027-21.897729L112.327298 135.823432c-25.966395 0-47.037293 21.054525-47.037293 47.021943l0 658.308227c0 25.968441 21.070898 47.021943 47.037293 47.021943l799.37508 0c25.967418 0 47.006594-21.054525 47.006594-47.021943L958.708971 290.171776C958.708971 264.204357 937.669796 241.62306 911.702378 241.62306zM864.665085 794.131659 159.334915 794.131659 159.334915 229.867318 387.888308 229.867318l51.280944 83.901899c8.524141 14.069437 23.774473 21.897729 40.220027 21.897729l385.274784 0L864.664062 794.131659z" p-id="10442" fill="#999999"></path></svg></div>
+							
+							<div class="down-item-close" title="删除下载记录" downloadID="${item.download_id}">
+								<svg t="1726295713423" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="11533" width="22" height="22"><path d="M576 512l277.333333 277.333333-64 64-277.333333-277.333333L234.666667 853.333333 170.666667 789.333333l277.333333-277.333333L170.666667 234.666667 234.666667 170.666667l277.333333 277.333333L789.333333 170.666667 853.333333 234.666667 576 512z" fill="#999999" p-id="11534"></path></svg>
+							</div>
+						</div>
+					</div>
+				</div>`;
+			});
+			if (isSole) {
+				let downItem = document.querySelector(`.down-item[down-id="${data.data[0].download_id}"]`);
+				if (downItem) {
+					// 完整替换
+					downItem.outerHTML = html;
+				}
+			} else {
+				let downList = document.querySelector('.down-manage-view');
+				downList.removeAttribute('style');
+				if (html === '') {
+					// downList删除max-width: 450px;
+					document.querySelector('.down-manage-view').style.maxWidth = 'none';
+					html =
+						'<div style="text-align: center;color: #919191;"><svg t="1726883253075" class="icon" viewBox="0 0 1024 900" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="24361" width="256" height="200" data-spm-anchor-id="a313x.search_index.0.i21.70813a817bU1wD"><path d="M3 718.906a509 111.344 0 1 0 1018 0 509 111.344 0 1 0-1018 0Z" fill="#F0F2F5" p-id="24362" data-spm-anchor-id="a313x.search_index.0.i20.70813a817bU1wD" class="selected"></path><path d="M338.51 186.047h-0.491c-14.25 0.195-27.53 8.732-36.612 22.77l-0.254 0.396-162.95 184.76v157.918h747.594V393.957L722.847 209.23l-0.245-0.383C713.418 194.627 699.933 186.046 685.49 186.046H338.511z m0 15.906h346.98c8.798 0 17.734 5.823 24.213 16.254l0.351 0.565L869.89 399.969v136.015H154.109V399.985L313.944 218.758l0.35-0.563c6.482-10.42 15.42-16.242 24.217-16.242z" fill="#DBDDE2" p-id="24363" data-spm-anchor-id="a313x.search_index.0.i22.70813a817bU1wD" class="selected"></path><path d="M323.67 392.828H138.203v296.445c0 37.815 24.065 69.399 54.877 69.399h637.84c30.815 0 54.877-31.573 54.877-69.4V392.829H700.33c-24.25 0.02-42.998 24.471-43.37 53.688l-0.006 0.998c0 21.523-12.949 38.382-27.63 38.382H394.676c-14.574 0-27.371-16.379-27.626-37.548l-0.004-0.993c0-29.606-18.882-54.527-43.376-54.527z" fill="#DBDDE2" p-id="24364"></path><path d="M154.109 689.273V408.734H323.67c14.45 0 27.212 16.652 27.466 37.973l0.004 0.998c0 29.498 19.001 54.097 43.536 54.097h234.648c24.274 0 43.155-24.267 43.53-53.404l0.01-1.643c0.254-21.328 13.022-38.009 27.472-38.021h169.555v280.539c0 29.838-18.027 53.493-38.97 53.493H193.08c-20.94 0-38.971-23.665-38.971-53.493z" fill="#FAFAFA" p-id="24365" data-spm-anchor-id="a313x.search_index.0.i15.70813a817bU1wD" class="selected"></path></svg><div>下载列表为空</div></div>';
+				}
+				downList.innerHTML = html;
+			}
+		}
+		// 事件监听
+		function downEventListener() {
+			// 获取父元素
+			const downManageView = document.querySelector('.down-manage-view');
+
+			// down-item-title 点击事件
+			downManageView.addEventListener('click', function (event) {
+				const target = event.target.closest('.down-item-title');
+				if (target && target.classList.contains('is-success')) {
+					const path = target.getAttribute('path');
+					send('controller.files.os_open_file', { filename: path });
+				}
+			});
+
+			// down-item-open 点击事件
+			downManageView.addEventListener('click', function (event) {
+				const target = event.target.closest('.down-item-open');
+				if (target) {
+					const path = target.getAttribute('path');
+					send('controller.files.os_open_folder', { filename: path });
+				}
+			});
+
+			// down-item-close 点击事件
+			downManageView.addEventListener('click', function (event) {
+				const target = event.target.closest('.down-item-close');
+				if (target) {
+					const id = target.getAttribute('downloadID');
+					send('controller.window.remove_download', { download_id: id }, result => {
+						getDownList();
+					});
+				}
+			});
+
+			// close-down-task 点击事件
+			downManageView.addEventListener('click', function (event) {
+				const target = event.target.closest('.close-down-task');
+				if (target) {
+					const id = target.closest('.down-item').getAttribute('down-id');
+					send('controller.window.cancel_download', { download_id: id }, result => {
+						getDownList();
+					});
+				}
+			});
+		}
+
+		// 字节转换
+		function bytesToSize(bytes) {
+			if (bytes === 0) return '0 B';
+			let k = 1024;
+			let sizes = ['B', 'KB', 'MB', 'GB', 'TB'];
+			let i = Math.floor(Math.log(bytes) / Math.log(k));
+			return (bytes / Math.pow(k, i)).toPrecision(3) + ' ' + sizes[i];
+		}
+	</script>
+	<style>
+		.down-hide {
+			display: none;
+		}
+		.down-manage-view {
+			display: flex;
+			flex-direction: column;
+			max-width: 450px;
+		}
+		.down-manage-view .down-item {
+			display: flex;
+			border-radius: 8px;
+			box-shadow: 0px 0px 4px rgb(0 0 0 / 10%);
+			margin-top: 15px;
+			padding: 8px;
+		}
+		.down-manage-view .down-item.down-canel {
+			opacity: 0.8;
+		}
+		.down-manage-view .down-item .down-canel-tips {
+			font-size: 10px;
+			margin-top: 5px;
+			color: #999;
+		}
+		.down-item-file {
+			padding: 0 30px 0 10px;
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+		}
+		.down-item-file .down-item-title {
+			max-width: 310px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.down-item-file .down-item-title.is-success:hover {
+			cursor: pointer;
+			/* 文字下划线 */
+			text-decoration: underline;
+			color: #1a73e8;
+		}
+		.down-item-file .down-item-speed {
+			font-size: 12px;
+			display: flex;
+			justify-content: space-between;
+			margin: 10px 0 5px 0;
+		}
+		.down-item-file .down-item-progress {
+			position: relative;
+			margin-bottom: 10px;
+		}
+		.down-item-file .down-item-progress .down-item-progress-width {
+			height: 4px;
+			background: #1890ff;
+			position: absolute;
+			top: 0;
+		}
+		.down-item-file .down-item-progress .down-item--progress-bg {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 4px;
+			background: #ccc;
+		}
+		.down-item-operation {
+			width: 60px;
+		}
+		.down-item-operation .close-down-task {
+			cursor: pointer;
+		}
+		.down-item-operation .close-down-task svg {
+			vertical-align: -28px;
+		}
+		.down-item-operation .down-item--view {
+			display: flex;
+		}
+		.down-item-operation .down-item--view svg:first-child {
+			margin-right: 10px;
+		}
+		.down-item-operation .down-item--view div {
+			cursor: pointer;
+			position: relative;
+		}
+		.down-item-operation .down-item--view div:hover::after {
+			content: '';
+			position: absolute;
+			left: -4px;
+			top: -4px;
+			width: 30px;
+			height: 30px;
+			background-color: #f0f0f0;
+			border-radius: 50%;
+			z-index: -1;
+		}
+	</style>
+</html>

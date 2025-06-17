@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .search-wrap {
+        padding: 10px;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+      }
+      .input {
+        width: 200px;
+        height: 30px;
+        padding-right: 10px;
+        border: 0;
+        outline: none;
+
+        border-radius: 5px;
+      }
+      .button {
+        display: inline-block;
+        background: transparent;
+        border: 0;
+      }
+      .icon {
+        width: 26px;
+        height: 26px;
+        font-size: 26px;
+        margin: 0;
+        padding: 0;
+        border-radius: 50%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1;
+      }
+      .icon:hover {
+        background-color: #e5e2e2;
+      }
+      .icon.next:hover::after {
+        border-color: #e5e2e2 transparent transparent transparent;
+      }
+      .icon.prev:hover::after {
+        border-color: transparent transparent #e5e2e2 transparent;
+      }
+      .prev::before,
+      .next::before,
+      .prev::after,
+      .next::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-style: solid;
+      }
+      .prev::before {
+        border-width: 0 6px 6px 6px;
+        border-color: transparent transparent #000 transparent;
+      }
+      .prev::after {
+        border-width: 0 6px 6px 6px;
+        border-color: transparent transparent #fff transparent;
+        transform: translate(-50%, calc(-50% + 2px));
+      }
+      .next::before {
+        border-width: 6px 6px 0 6px;
+        border-color: #000 transparent transparent transparent;
+      }
+      .next::after {
+        border-width: 6px 6px 0 6px;
+        border-color: #fff transparent transparent transparent;
+        transform: translate(-50%, calc(-50% - 2px));
+      }
+      .count {
+        display: inline-block;
+        font-size: 12px;
+        margin-right: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-wrap">
+      <input id="search" class="input" />
+      <div class="count" id="count">0/0</div>
+      <button class="button icon prev" id="prev"></button>
+      <button class="button icon next" id="next"></button>
+      <button class="button icon" id="close">&times;</button>
+    </div>
+    <script>
+      const Renderer = (window.require && window.require('electron')) || window.electron || {};
+		  const ipcRenderer = Renderer.ipcRenderer || undefined;
+      // 获取view_key参数
+      let viewKey = new URLSearchParams(window.location.search).get('view_key')
+      let searchChannel = `search-${viewKey}`
+      
+      window.onload = () => {
+          postMessage({ payload: 'removeLoading' }, '*')
+          let searchObj = document.getElementById('search')
+          searchObj.focus()
+
+          function search(){
+              const value = searchObj.value
+              ipcRenderer.send(searchChannel, JSON.stringify({ value, start: true }))
+          }
+
+          function prev(){
+              const value = searchObj.value
+              ipcRenderer.send(searchChannel, JSON.stringify({ value, next: false }))
+          }
+
+          function next(){
+              const value = searchObj.value
+              ipcRenderer.send(searchChannel, JSON.stringify({ value, next: true }))
+          }
+
+          function close(){
+              ipcRenderer.send(`close-search-view-${viewKey}`)
+          }
+
+          searchObj.oninput = search;
+          document.getElementById('prev').onclick = prev;
+          document.getElementById('next').onclick = next;
+          document.getElementById('close').onclick = close;
+
+
+          // 搜索结果事件
+          ipcRenderer.on('found-in-page', (event, arg) => {
+            document.getElementById('count').innerText = `${arg.activeMatchOrdinal}/${arg.matches}`
+          })
+
+          // 输入框回车事件
+          searchObj.onkeydown = (e) => {
+            if (e.keyCode === 13) {
+              next()
+            }
+          }
+      }
+    </script>
+  </body>
+</html>

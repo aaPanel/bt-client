@@ -1,0 +1,343 @@
+html.dark {
+	$text-primary: #1a73e8;
+	$text-color: #fff;
+	$head-text-color: #666;
+	$border-color: #393939;
+
+	// 背景
+	$bg: #313131;
+	$bg-dark: #1f1f1f;
+	$table-th-bg-color: #1f1f1f;
+	$tabs-bg-color: #1f1f1f;
+
+	--el-text-color-primary: #fff !important;
+	--el-bg-color: #1f1f1f;
+	--el-box-shadow-light: 0px 0px 4px rgba(0, 0, 0, 0.1) !important;
+	--el-border-color-lighter: #1d2023;
+	--el-fill-color-blank: #1f1f1f;
+
+	--el-border-color-extra-light: #666 !important;
+	--el-button-disabled-border-color: #303438 !important;
+	--el-text-color-regular: #e3e3e3 !important;
+	--el-fill-color-light: #111417;
+	--el-border-color: #303438;
+	--el-bg-color-overlay: rgba(0, 11, 21, 1);
+	--el-border-color-light: #1d2023;
+	// * menu
+	--el-menu-bg-color: #111417 !important;
+	--el-menu-item-bg-color: #111417;
+	--el-menu-text-color: #ffffff;
+	--el-menu-item-bg-color-active: rgb(44, 45, 46);
+
+	--el-color-primary-light-9: #393939;
+	body {
+		color: #fff;
+	}
+	svg,
+	svg use {
+		fill: #fff;
+	}
+
+	// 头部
+	.layout-header {
+		background-color: $bg;
+		ul {
+			color: $text-color;
+			li {
+				.bg-color {
+					background-color: $bg-dark;
+				}
+				&.active .bg-color {
+					background-color: $bg-dark;
+					&::before,
+					&::after {
+						box-shadow: 0 0 0 40px $bg-dark;
+					}
+				}
+				// .bg-text {
+				// 	svg use {
+				// 		fill: $text-color;
+				// 	}
+				// }
+			}
+		}
+		.vue3-tabs-chrome {
+			background-color: $bg;
+			color: $text-color;
+			.tabs-item:hover {
+				.tabs-background-content {
+					background-color: $bg-dark;
+				}
+				.tabs-background-before,
+				.tabs-background-after {
+					fill: $bg-dark;
+				}
+			}
+			.tabs-item.active .tabs-background-content,
+			.tabs-content .tabs-item:not(.active):hover .tabs-main {
+				background-color: $bg-dark;
+			}
+			.tabs-item.active .tabs-background-after,
+			.tabs-item.active .tabs-background-before {
+				fill: $bg-dark;
+			}
+			.tabs-item.active {
+				.tabs-refresh,
+				.tabs-close {
+					background-color: $bg-dark;
+				}
+			}
+			.tabs-close-icon:hover{
+				background-color: $border-color;
+			}
+		}
+		.control {
+			&.minimize span,
+			&.close span::before,
+			&.close span::after {
+				background-color: $text-color;
+			}
+			&.maximize span,
+			&.maximize span::before {
+				border-color: $text-color;
+				background-color: $bg-dark;
+			}
+			&:hover {
+				background-color: $bg-dark;
+			}
+			&.close {
+				&:hover {
+					background-color: #e81123;
+				}
+			}
+		}
+	}
+
+	// tabs
+	.el-tabs {
+		&.menu-vertical {
+			.el-tabs__header-vertical {
+				background-color: $table-th-bg-color;
+			}
+			&.el-tabs--right {
+				.el-tabs__content {
+					.el-tab-pane {
+						border-color: $border-color;
+					}
+				}
+			}
+			.el-tabs__nav-wrap.is-right::after,
+			.el-tabs__nav-wrap.is-left::after {
+				display: block;
+				background-color: $border-color;
+			}
+			.el-tabs__nav-wrap.is-right::after {
+				left: 1px;
+			}
+			&.el-tabs--left {
+				.el-tabs__content {
+					.el-tab-pane {
+						border-color: $border-color;
+					}
+				}
+			}
+		}
+		&.menu-left-tabs{
+			.el-tabs__header-vertical {
+				background-color: #282828
+			}
+			.el-tabs__item{
+				padding: 0 40px;
+				height: 3.6rem !important;
+				&.is-active{
+					background-color: #333;
+				}
+				&.is-left{
+					justify-content: flex-start !important;
+				}
+			}
+		}
+	}
+
+	// 表格
+	.el-table {
+		& &__header {
+			th.is-leaf {
+				font-weight: normal;
+				color: $text-color;
+			}
+		}
+		&.table-style-one {
+			font-size: 1.2rem !important;
+			.el-table__header {
+				tr > th {
+					background-color: $bg;
+					color: $text-color;
+				}
+			}
+		}
+	}
+
+	// 按钮
+	.el-button {
+		--el-button-bg-color: #313131;
+		--el-button-border-color: #393939;
+		--el-button-text-color: #fff;
+		&--primary {
+			--el-button-bg-color: #1a73e8;
+			--el-button-border-color: #1a73e8;
+		}
+		&.card-btn-style {
+			border: none;
+			background: none;
+			&:hover {
+				background: $bg-dark;
+			}
+		}
+	}
+	// 单选框
+	.el-radio {
+		.el-radio__inner {
+			border-color: #666 !important;
+		}
+	}
+	// 输入框
+	.el-select,
+	.el-input,
+	.el-textarea {
+		--el-input-bg-color: #282828;
+		--el-fill-color-blank: #282828;
+	}
+	// 空白
+	.el-empty {
+		--el-empty-fill-color-0: #1f1f1f;
+		--el-empty-fill-color-1: #4b4b52;
+		--el-empty-fill-color-2: #36383d;
+		--el-empty-fill-color-3: #1e1e20;
+		--el-empty-fill-color-4: #262629;
+		--el-empty-fill-color-5: #202124;
+		--el-empty-fill-color-6: #212224;
+		--el-empty-fill-color-7: #1b1c1f;
+		--el-empty-fill-color-8: #1c1d1f;
+		--el-empty-fill-color-9: #18181a;
+		svg,
+		svg use,
+		svg path {
+			fill: #313131;
+		}
+	}
+
+	// 以下是自定义样式
+
+	// 面板搜索
+	.panel-search {
+		background-color: #282828;
+		.el-input .el-input__wrapper {
+			background-color: #282828;
+			input {
+				color: #ffff;
+				&::placeholder {
+					color: #e3e3e3;
+				}
+			}
+		}
+	}
+	// 面板列表
+	.panel__content {
+		.cardList {
+			.el-card {
+				background-color: #313131;
+				.el-card__header {
+					background-color: #313131;
+					border-color: $border-color;
+					color: $text-color;
+				}
+				&.isError {
+					background: #3e2222;
+					box-shadow:
+						rgba(62, 34, 34, 0.3) 0 1px 2px 0,
+						rgba(62, 34, 34, 0.15) 0 2px 6px 2px;
+					.el-card__header {
+						background-color: #3e2222;
+						border-color: #3e2222;
+					}
+					.el-progress-bar__outer {
+						background-color: #3c2e2e;
+					}
+				}
+			}
+			.disk-card-select{
+				.el-select__wrapper{
+					background-color: transparent;
+				}
+			}
+		}
+	}
+	// 弹窗
+	.dialog-box {
+		background-color: #1f1f1f !important;
+		.dialog-header,
+		.dialog-footer {
+			background-color: #1f1f1f;
+			.dialog-title {
+				color: #fff;
+			}
+			.dialog-control {
+				.DialogcloseIcon {
+					color: #fff;
+				}
+			}
+		}
+		.dialog-header {
+			border-bottom-color: #555;
+		}
+		.dialog-footer {
+			border-top-color: #555;
+			button {
+				&:first-child {
+					background-color: #333;
+					border-color: #555;
+					color: #fff;
+				}
+			}
+		}
+	}
+	// 管理密码
+	.lock-wrapper,
+	.login-wrapper {
+		background-color: #313131;
+	}
+	.login-wrapper {
+		.el-card__body {
+			.font-bold {
+				color: #fff;
+			}
+			div a {
+				color: #1a73e8;
+			}
+		}
+	}
+	.lock-container {
+		.locked {
+			color: #fff;
+		}
+		.lock-wrapper .tips-head {
+			background: #313131;
+		}
+	}
+	#pane-monitor {
+		.el-card {
+			border-color: #282828;
+		}
+	}
+	// 弹窗遮罩层背景颜色
+	#overlay {
+		background-color: rgba(0, 0, 0, 0.5) !important;
+	}
+	.custom-loading {
+		.custom-loading__mask {
+			background-color: #1f1f1f;
+		}
+	}
+
+}

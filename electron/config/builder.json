@@ -1,0 +1,67 @@
+{
+  "productName": "bt-client",
+  "appId": "com.bt.bt-client",
+  "copyright": "Guangdong Baota Safety Technology Co., Ltd.",
+  "directories": {
+    "output": "out"
+  },
+  "afterSign": "build/notarization/notarize.js",
+  "asar": true,
+  "files": [
+    "**/*",
+    "!frontend/",
+    "!run/",
+    "!logs/",
+    "!data/",
+    "!electron/"
+  ],
+  "extraResources": {
+    "from": "build/extraResources/",
+    "to": "extraResources"
+  },
+  "nsis": {
+    "deleteAppDataOnUninstall":true,
+    "oneClick": false,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true,
+    "installerIcon": "build/icons/icon.ico",
+    "uninstallerIcon": "build/icons/icon.ico",
+    "installerHeaderIcon": "build/icons/icon.ico",
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "堡塔多机管理"
+  },
+  "publish": [
+    {
+      "provider": "generic",
+      "url": ""
+    }
+  ],
+  "mac": {
+    "icon": "build/icons/icon.icns",
+    "artifactName": "${productName}-${os}-${version}-${arch}.${ext}",
+    "darkModeSupport": true,
+    "hardenedRuntime": true,
+    "gatekeeperAssess":false
+  },
+  "dmg":{
+    "sign":false
+  },
+  "win": {
+    "icon": "build/icons/icon.ico",
+    "artifactName": "${productName}-${os}-${version}-${arch}.${ext}",
+    "target": [
+      {
+        "target": "nsis"
+      }
+    ]
+  },
+  "linux": {
+    "icon": "build/icons/icon.icns",
+    "artifactName": "${productName}-${os}-${version}-${arch}.${ext}",
+    "target": [
+      "deb"
+    ],
+    "category": "Utility"
+  }
+}
