@@ -126,7 +126,7 @@ bt-client/
 
 ## 📄 许可证
 
-本项目基于 Apache 许可证开源。详见 [LICENSE](LICENSE) 文件。
+本项目基于 AGPL 3.0 许可证开源。详见 [LICENSE](LICENSE) 文件。
 
 ## 🔗 相关链接
 

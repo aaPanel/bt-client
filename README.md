@@ -126,7 +126,7 @@ bt-client/
 
 ## 📄 License
 
-This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the AGPL 3.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Related Links
 
