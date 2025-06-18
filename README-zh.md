@@ -4,8 +4,6 @@
 
 堡塔多机管理是一款专业的多机管理工具，专为统一管理多台SSH连接和宝塔面板而设计。通过简洁直观的界面，用户可以轻松管理多台服务器，提高运维效率。
 
-基于 [宝塔官网产品页面](https://www.bt.cn/new/product_pc.html) 开发。
-
 ## ✨ 主要特性
 
 - 🚀 **一键装面板并绑定** - 快速安装宝塔面板并自动绑定，即装即用
@@ -133,9 +131,3 @@ bt-client/
 - [宝塔官网](https://www.bt.cn)
 - [产品页面](https://www.bt.cn/new/product_pc.html)
 - [使用文档](https://www.bt.cn/bbs)
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://www.bt.cn">BT-Panel Team</a>
-</p> 

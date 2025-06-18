@@ -4,8 +4,6 @@
 
 A professional multi-machine management tool designed for unified management of multiple SSH connections and BT-Panel (Baota Panel). With an intuitive interface, users can easily manage multiple servers and improve operational efficiency.
 
-Developed based on [BT-Panel Official Product Page](https://www.aapanel.com/new/feature/aaterm.html).
-
 ## ✨ Key Features
 
 - 🚀 **One-click Panel Installation & Binding** - Quickly install BT-Panel and automatically bind it for immediate use
@@ -133,9 +131,3 @@ This project is licensed under the AGPL 3.0 License. See the [LICENSE](LICENSE) 
 - [BT-Panel Official Website](https://www.bt.cn)
 - [Product Page](https://www.bt.cn/new/product_pc.html)
 - [Documentation](https://www.bt.cn/bbs)
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://www.bt.cn">BT-Panel Team</a>
-</p> 
